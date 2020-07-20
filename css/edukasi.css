@@ -1,0 +1,21 @@
+.edukasi{
+  margin-top: 130px;
+}
+.text--blue{
+  color: #428AF7;
+}
+.btn--blue{
+  background-color: #428AF7;
+}
+.btn--blue:hover .icon-btn-primary svg{
+  animation-name: iconBtnPrimary;
+  animation-duration: 400ms;
+}
+.box-icon{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}

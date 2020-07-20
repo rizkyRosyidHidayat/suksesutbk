@@ -1,0 +1,23 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="584px" height="549px">
+<defs>
+    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="584px" height="549px"  >
+        <feOffset in="SourceAlpha" dx="0" dy="12" />
+        <feGaussianBlur result="blurOut" stdDeviation="6.325" />
+        <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+        <feComposite operator="atop" in="floodOut" in2="blurOut" />
+        <feComponentTransfer><feFuncA type="linear" slope=".1"/></feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+    <path fill-rule="evenodd"  fill="rgb(242, 247, 253)"
+          d="M502.740,267.658 C466.058,420.185 254.323,476.565 141.801,366.772 C28.304,256.016 86.646,91.106 230.247,43.713 C358.081,1.526 524.731,101.936 506.630,246.277 C505.712,253.598 504.407,260.727 502.740,267.658 Z"/>
+</g>
+</svg>

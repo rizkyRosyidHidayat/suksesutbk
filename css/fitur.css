@@ -1,0 +1,56 @@
+.fitur{
+  margin-top: 180px;
+}
+.text--purple{
+  color: #7569de;
+}
+.btn--purple .icon-btn-primary{
+  background-color: #7569de;
+}
+.btn--purple:hover{
+  color: #7569de;
+}
+.btn--purple:hover .icon-btn-primary{
+  background-color: #493ac8;  
+}
+.btn--purple:hover .icon-btn-primary svg{
+  animation-name: iconBtnPrimary;
+  animation-duration: 400ms;
+}
+.fitur-item .card{
+  cursor: pointer;
+  height: 200px;
+  transition: all 0.1s ease;
+}
+.fitur-item:nth-child(1) .card{
+  border-radius: 30px 30px 10px 30px;
+}
+.fitur-item:nth-child(1) .card.active{
+  height: 225px;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+.fitur-item:nth-child(2) .card{
+  border-radius: 30px 30px 30px 10px;
+}
+.fitur-item:nth-child(2) .card.active{
+  height: 225px;
+  margin-top: -25px;
+  margin-right: -25px;
+}
+.fitur-item:nth-child(3) .card{
+  border-radius: 30px 10px 30px 30px;
+}
+.fitur-item:nth-child(3) .card.active{
+  height: 225px;
+  margin-bottom: -25px;
+  margin-left: -25px;
+}
+.fitur-item:nth-child(4) .card{
+  border-radius: 10px 30px 30px 30px;
+}
+.fitur-item:nth-child(4) .card.active{
+  height: 225px;
+  margin-bottom: -25px;
+  margin-right: -25px;
+}

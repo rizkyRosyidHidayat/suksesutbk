@@ -1,0 +1,11 @@
+html{ scroll-behavior: smooth; }
+body{ background-color: #F3F7FC; }
+.main{
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+.text--green{
+  color: #9ecb45;
+}
