@@ -4,7 +4,7 @@ Vue.component('event-section', {
     <div class="container-lg">
       <div class="row">
         <div class="col-3 mb-4">
-          <div class="card border-0 position-relative overflow-hidden rounded-lg">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">
@@ -15,7 +15,7 @@ Vue.component('event-section', {
           </div>
         </div>
         <div class="col-3 mb-4">
-          <div class="card border-0 position-relative overflow-hidden rounded-lg">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">
@@ -48,7 +48,7 @@ Vue.component('event-section', {
           </a>
         </div>
         <div class="col-3">
-          <div class="card border-0 position-relative overflow-hidden rounded-lg">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">
@@ -59,7 +59,7 @@ Vue.component('event-section', {
           </div>
         </div>
         <div class="col-6">
-          <div class="card border-0 position-relative overflow-hidden rounded-lg" style="height: 350px;">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg" style="height: 350px;">
             <img src="./img/ocid.jpg" style="object-fit: cover;" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">
@@ -70,7 +70,7 @@ Vue.component('event-section', {
           </div>
         </div>
         <div class="col-3">
-          <div class="card border-0 position-relative overflow-hidden rounded-lg">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">

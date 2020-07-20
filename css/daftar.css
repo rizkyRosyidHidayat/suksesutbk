@@ -1,0 +1,35 @@
+.daftar{
+  margin-top: 200px;
+  /* overflow-y: hidden; */
+}
+.daftar .card{
+  margin-top: -60px;
+}
+.daftar-bg{
+  /* width: 60px;
+  height: 60px; */
+  margin-left: -40px;
+}
+.bg--purple{
+  background-color: #7569de;
+}
+.form-bg{
+  background-image: url('../img/call-bg.svg');
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position-x: -60px;
+  background-position-y: center;
+}
+.text-field{
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+}
+.text-field-placeholder{
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.text-field-placeholder.active{
+  top: -20px;
+  font-size: 12px;
+}

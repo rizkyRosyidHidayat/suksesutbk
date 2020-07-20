@@ -7,10 +7,10 @@ Vue.component('fitur-section', {
           <div class="h1 font-weight-bold animate-slide">
             {{ fitur[fiturIndex].title }}
           </div>
-          <div class="mb-5 animate-slide delay-2">
+          <div class="mb-5 text-black-50 animate-slide delay-2">
             {{ fitur[fiturIndex].desc }}
           </div>
-          <div class="d-flex align-items-center animate-slide delay-3">
+          <div class="d-flex align-items-center animate-slide delay-3 mb-3">
             <a href="#" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>

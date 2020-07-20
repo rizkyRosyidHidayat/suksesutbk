@@ -1,5 +1,5 @@
 html{ scroll-behavior: smooth; }
-body{ background-color: #F3F7FC; }
+body{ background-color: #F3F7FC;font-family: 'Nunito', sans-serif; }
 .main{
   top: 0;
   left: 0;
@@ -8,4 +8,7 @@ body{ background-color: #F3F7FC; }
 }
 .text--green{
   color: #9ecb45;
+}
+.rounded--lg{
+  border-radius: 20px;
 }

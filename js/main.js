@@ -3,6 +3,9 @@ import '../component/slide_banner.js'
 import '../component/fitur.js'
 import '../component/edukasi.js'
 import '../component/event.js'
+import '../component/testimoni.js'
+import '../component/daftar.js'
+import '../component/menu_footer.js'
 
 const app = new Vue({
   el: '#app',
