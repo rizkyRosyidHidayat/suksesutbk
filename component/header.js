@@ -23,7 +23,7 @@ Vue.component('header-section', {
                 @mouseover="iconColor = '#F57045'"
                 @mouseleave="iconColor = '#ffffff'"
                 class="btn btn-outline--white rounded-pill font-weight-bold px-3">
-                HUBUNGI KAMI
+                LOGIN
                 <span class="icon-btn-outline-animate">
                   <svg class="bi bi-arrow-right" width="30" :fill="iconColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>

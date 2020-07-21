@@ -12,3 +12,11 @@ body{ background-color: #F3F7FC;font-family: 'Nunito', sans-serif; }
 .rounded--lg{
   border-radius: 20px;
 }
+.divider-vertical{  
+  width: 1px;
+  height: 60px;
+  background-color: rgb(107, 107, 107);
+}
+.bg--primary{
+  background-color: #F57045;
+}

@@ -1,0 +1,25 @@
+.icon-footer{
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+}
+.icon-footer svg{
+  fill: #8ba2b6;
+  width: 30px;
+  transition: fill 0.1s ease;
+}
+.icon-footer:hover svg{
+  fill: #F57045;
+}
+.footer-bottom{
+  height: 50px;
+  background: #7569de;
+  border-radius: 25px;
+  margin-bottom: -32px;
+  margin-top: 32px;
+}

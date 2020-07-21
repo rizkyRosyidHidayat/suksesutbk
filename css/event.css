@@ -18,6 +18,7 @@
 .event .card:hover{
   margin-top: -15px;
   margin-bottom: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
 } 
 .event .card:hover .card-body{
   background-color: rgba(178, 76, 209, 0.5);

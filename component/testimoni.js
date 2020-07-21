@@ -13,10 +13,12 @@ Vue.component('testimoni-section', {
         </p>
         <a href="#">
           <button
+            @mouseover="iconColor = '#F57045'"
+            @mouseleave="iconColor = '#7F7F7F'"
             class="btn btn--text font-weight-bold text-black-50 px-0">
             HUBUNGI KAMI
             <span class="icon-text-animate">
-              <svg class="bi bi-arrow-right" width="30" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <svg class="bi bi-arrow-right" width="30" :fill="iconColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
                 <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
               </svg>
@@ -46,6 +48,7 @@ Vue.component('testimoni-section', {
   </section>
   `,
   data: () => ({
+    iconColor: '#7F7F7F',
     testimoni: [
       {
         title: 'Rizky Rosyid H',
