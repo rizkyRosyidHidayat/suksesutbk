@@ -35,8 +35,7 @@ Vue.component('testimoni-section', {
               <div>
                 <div class="h5 font-weight-bold">{{ item.title }}</div>
                 <div class="desc-testimoni">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-                  eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+                  {{ item.desc }}
                 </div>
               </div>
             </div>

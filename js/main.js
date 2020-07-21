@@ -8,6 +8,7 @@ import '../component/daftar.js'
 import '../component/menu_footer.js'
 import '../component/footer.js'
 import '../component/market.js'
+import '../component/video.js'
 
 const app = new Vue({
   el: '#app',
@@ -55,6 +56,16 @@ const testimoni = new Swiper('.swiper-container', {
   grabCursor: true,
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
+  }
+})
+const video = new Swiper('.swiper-container-video', {
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  // spaceBetween: 30,
+  grabCursor: true,
+  pagination: {
+    el: '.swiper-pagination-video',
     clickable: true,
   }
 })

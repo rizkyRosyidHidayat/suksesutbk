@@ -5,6 +5,7 @@ body{ background-color: #F3F7FC;font-family: 'Nunito', sans-serif; }
   left: 0;
   width: 100%;
   position: absolute;
+  overflow-x: hidden;
 }
 .text--green{
   color: #9ecb45;

@@ -1,7 +1,7 @@
 .testimoni{
   margin-top: 230px;
 }
-.swiper-wrapper{
+.testimoni .swiper-wrapper{
   margin-left: -20%;
 }
 .swiper-slide{
@@ -42,4 +42,26 @@
   background-color: #F57045;
   width: 200px;
   border-radius: 20px;
+}
+/* video */
+.video{
+  margin-top: 130px;
+}
+.video .card{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+.swiper-container-video{
+  overflow-x: hidden;
+}
+.video .icon-footer{
+  width: 70px;
+  height: 70px;
+}
+.video .icon-footer svg{
+  width: 50px;
 }

@@ -5,7 +5,7 @@ Vue.component('header-section', {
     <header class="navbar navbar-expand-md dark my-4 z-index-3">
       <div class="container-lg">
         <a href="#" class="navbar-brand">              
-          <img src="./img/logo_white.svg" alt="logo" height="50px">
+          <img src="./img/logo_white.svg" alt="logo" height="40px">
         </a>
         <!-- <div 
           v-if="visible === true"
