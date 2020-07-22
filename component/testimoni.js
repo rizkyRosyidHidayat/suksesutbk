@@ -2,7 +2,7 @@ Vue.component('testimoni-section', {
   template: `
   <section class="text-black-50 testimoni">
     <div class="d-flex justify-content-center">
-      <div class="text-center w-50">
+      <div class="text-center testimoni-desc">
         <h2>
           Tertarik <span class="font-weight-bold text--green">Mendaftar ?</span>
         </h2>

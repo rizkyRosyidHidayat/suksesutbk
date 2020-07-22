@@ -8,8 +8,8 @@ Vue.component('market-section', {
         </span>
         Market
       </h1>
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="w-50">
+      <div class="d-block d-sm-flex justify-content-between align-items-center">
+        <div class="desc-market mb-5 mb-sm-0">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Sit saepe dicta velit eius, sed voluptas molestiae eos.
@@ -21,7 +21,7 @@ Vue.component('market-section', {
               @click="selectedKategori=item"
               :class="{'active': item==selectedKategori?true:false}">
               <img src="./icon/circle.svg" alt="circle">
-              <span class="mx-4">{{ item }}</span>
+              <span class="mx-2 mx-sm-3 mx-lg-4">{{ item }}</span>
             </button>
           </div>
         </div>
@@ -32,7 +32,7 @@ Vue.component('market-section', {
       <div class="row">
         <div 
           v-for="(item, i) in selectedProduk.produk" :key="i"
-          class="col-3">
+          class="col-6 col-md-3">
           <div class="card rounded--lg border-0">
             <div class="card-body text-center text--blue">
               <img :src="'./img/'+item.img" alt="market" class="w-75 shadow-lg img-market">

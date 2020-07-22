@@ -5,7 +5,7 @@ Vue.component('video-testimoni', {
       <div class="swiper-wrapper pb-4">
         <div 
           v-for="(item, i) in video" :key="i"
-          class="swiper-slide row w-75 mr-4 pb-5">
+          class="swiper-slide row mr-4 pb-5">
           <div class="col-6">
             <div 
               :style="{'background-image': item.img}"

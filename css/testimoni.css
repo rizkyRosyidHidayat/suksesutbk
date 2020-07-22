@@ -4,6 +4,9 @@
 .testimoni .swiper-wrapper{
   margin-left: -20%;
 }
+.testimoni-desc{
+  width: 50%;
+}
 .swiper-slide{
   width: 40%;
 }
@@ -58,10 +61,28 @@
 .swiper-container-video{
   overflow-x: hidden;
 }
+.video .swiper-slide{
+  width: 80%;
+}
 .video .icon-footer{
   width: 70px;
   height: 70px;
 }
 .video .icon-footer svg{
   width: 50px;
+}
+
+@media screen and (max-width: 768px){
+  .swiper-slide{
+    width: 80%;
+  }
+  .testimoni .swiper-wrapper{
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .testimoni-desc{
+    width: 90%;
+  }
 }

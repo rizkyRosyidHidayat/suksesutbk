@@ -33,3 +33,13 @@
   top: -20px;
   font-size: 12px;
 }
+
+@media screen and (max-width: 576px){
+  .text-field{
+    margin-bottom: 32px;
+  }
+  .form-bg{
+    background-size: 130%;
+    background-position-y: -50%;
+  }
+}

@@ -54,3 +54,47 @@
   margin-bottom: -25px;
   margin-right: -25px;
 }
+
+@media screen and (max-width: 768px){
+  .fitur-item .card{
+    height: 100px;
+  }
+  .fitur-item img{
+    width: 40px;
+  }
+  .fitur-item .h5{
+    font-size: 12px;
+  }
+  .fitur-item:nth-child(1) .card{
+    border-radius: 20px 20px 10px 20px;
+  }
+  .fitur-item:nth-child(1) .card.active{
+    height: 125px;
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+  .fitur-item:nth-child(2) .card{
+    border-radius: 20px 20px 20px 10px;
+  }
+  .fitur-item:nth-child(2) .card.active{
+    height: 125px;
+    margin-top: -25px;
+    margin-right: -25px;
+  }
+  .fitur-item:nth-child(3) .card{
+    border-radius: 20px 10px 20px 20px;
+  }
+  .fitur-item:nth-child(3) .card.active{
+    height: 125px;
+    margin-bottom: -25px;
+    margin-left: -25px;
+  }
+  .fitur-item:nth-child(4) .card{
+    border-radius: 10px 20px 20px 20px;
+  }
+  .fitur-item:nth-child(4) .card.active{
+    height: 125px;
+    margin-bottom: -25px;
+    margin-right: -25px;
+  }
+}

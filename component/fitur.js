@@ -3,14 +3,14 @@ Vue.component('fitur-section', {
   <section class="fitur text--purple">
     <div class="container-lg">
       <div class="row align-items-center">
-        <div class="col-6 overflow-hidden" :key="fiturIndex">
+        <div class="col-sm-7 col-md-6 overflow-hidden" :key="fiturIndex">
           <div class="h1 font-weight-bold animate-slide">
             {{ fitur[fiturIndex].title }}
           </div>
           <div class="mb-5 text-black-50 animate-slide delay-2">
             {{ fitur[fiturIndex].desc }}
           </div>
-          <div class="d-flex align-items-center animate-slide delay-3 mb-3">
+          <div class="d-block d-md-flex align-items-md-center animate-slide delay-3 mb-3">
             <a href="#" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
@@ -24,13 +24,13 @@ Vue.component('fitur-section', {
             </a>
             <a href="#" class="ml-5">
               <button
-                class="btn btn--text font-weight-bold text--purple p-0">
+                class="btn btn--text font-weight-bold text--purple p-0 mt-sm-5 mt-md-0">
                 Hubungi Kami
               </button>
             </a>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-5 col-md-6 d-none d-sm-block">
           <div class="row">
             <div v-for="(item, i) in fitur" :key="i" class="col-6 fitur-item" style="margin-bottom: 32px;">
               <div 

@@ -1,7 +1,7 @@
 .slider{
   margin-top: 100px;
 }
-.animate-slide{
+.animate-r{
   animation-name: slide;
   animation-duration: 500ms;
   animation-fill-mode: both;
@@ -84,4 +84,10 @@
   background-color: #ffffff;
   width: 200px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .slider{
+    margin-top: 50px;
+  }
 }

@@ -3,7 +3,7 @@ Vue.component('event-section', {
   <section class="event">
     <div class="container-lg">
       <div class="row">
-        <div class="col-3 mb-4">
+        <div class="col-6 col-sm-4 col-md-3 mb-4 order-2 order-md-1">
           <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
@@ -14,7 +14,7 @@ Vue.component('event-section', {
             </div>
           </div>
         </div>
-        <div class="col-3 mb-4">
+        <div class="col-6 col-sm-4 col-md-3 mb-4 order-3 order-md-2">
           <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
@@ -25,7 +25,7 @@ Vue.component('event-section', {
             </div>
           </div>
         </div>
-        <div class="col-6 text-black-50 mb-4">
+        <div class="col-sm-12 col-md-6 text-black-50 mb-4 order-1 order-md-3">
           <div class="h3 font-weight-bold text--purple">Event Menarik Sekali</div>
           <p class="h3">Gabung Saja Jika Tertarik</p>
           <p class="mb-4">
@@ -47,7 +47,7 @@ Vue.component('event-section', {
             </button>
           </a>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-sm-4 col-md-3 order-4 mb-4">
           <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
@@ -58,9 +58,9 @@ Vue.component('event-section', {
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="card border-0 position-relative overflow-hidden rounded--lg" style="height: 350px;">
-            <img src="./img/ocid.jpg" style="object-fit: cover;" alt="event">
+        <div class="col-6 col-sm-8 col-md-6 order-5 mb-4">
+          <div class="card border-0 position-relative overflow-hidden rounded--lg diff">
+            <img src="./img/ocid.jpg" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">
               <div class="text-white">
                 <h4>UTBK Online Indonesia</h4>
@@ -69,7 +69,7 @@ Vue.component('event-section', {
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-sm-4 col-md-3 order-6">
           <div class="card border-0 position-relative overflow-hidden rounded--lg">
             <img src="./img/ocid.jpg" class="w-100" alt="event">
             <div class="card-body position-absolute d-flex align-items-end desc-event" style="bottom: 0;">

@@ -1,6 +1,6 @@
 Vue.component('menu-footer', {
   template: `
-  <section class="menu-footer mt-5">
+  <section class="menu-footer mt-5 d-none d-md-block">
     <div class="container-lg">
       <div class="mx-5">
         <div class="row text-black-50">

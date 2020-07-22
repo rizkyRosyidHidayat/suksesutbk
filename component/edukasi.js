@@ -3,16 +3,16 @@ Vue.component('edukasi-section', {
   <section class="edukasi text-black-50">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-sm-6 mb-5 mb-sm-0">
           <div class="position-relative text-left">
             <img src="./img/education-bg.svg" alt="edukasi" class="w-75">
             <img src="./img/landing-hero.png" alt="edukasi" class="w-100 position-absolute" style="top: 0;left: 0;">
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-sm-6 col-md-5">
           <div class="h2 font-weight-bold text--blue">Lihat Penawaran Terbaik Kami</div>
-          <div class="h2 mb-3">Dijamin Puas Dengan Kami</div>
-          <p class="mb-5">
+          <div class="h2 mb-sm-1 mb-md-3">Dijamin Puas Dengan Kami</div>
+          <p class="mb-sm-3 mb-md-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             Quis perspiciatis maiores.
           </p>
@@ -21,16 +21,16 @@ Vue.component('edukasi-section', {
               v-for="item in edukasi" :key="item.title" 
               class="col-6">
               <div class="d-flex align-items-center mb-4">
-                <div class="box-icon bg-white shadow">
+                <div class="box-icon bg-white shadow flex-shrink-0">
                   <img :src="'./img/'+item.img" alt="edukasi">
                 </div>
-                <b class="ml-4">
+                <b class="ml-3 ml-md-4">
                   {{ item.title }}
                 </b>
               </div>
             </div>
           </div>
-          <div class="d-flex align-items-center mt-5">
+          <div class="d-block d-md-flex align-items-center mt-sm-3 mt-md-5">
             <a href="#" class="btn btn--blue rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
@@ -44,7 +44,7 @@ Vue.component('edukasi-section', {
             </a>
             <a href="#" class="ml-5">
               <button
-                class="btn btn--text font-weight-bold text--blue p-0">
+                class="btn btn--text font-weight-bold text--blue p-0 mt-sm-5 mt-md-0">
                 Hubungi Kami
               </button>
             </a>

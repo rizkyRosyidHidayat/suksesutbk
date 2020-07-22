@@ -27,7 +27,7 @@
   position: absolute;
   top:65vh;
   left:0;
-  width:300px;
+  width:290px;
   max-width:inherit;
   transform:translateX(-65%);
 }
@@ -62,5 +62,31 @@
   .image-change, .shape-8{
     max-width: 100%;
     right: -15%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero-bg-top-shape{
+    width:140px;
+    top: 130px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .hero-bg{
+    height: 140vh;
+  }
+  .image-change, .shape-8{
+    max-width: 120%;
+    right: 0%;
+    top: 50px;
+  }
+  .hero-bg-top{
+    width:100vw;
+    transform:translateY(-50%) translateX(0%);
+  }
+  .shape-1{
+    top: 40vh;
+    width: 200px;
   }
 }

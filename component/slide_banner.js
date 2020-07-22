@@ -2,9 +2,9 @@ Vue.component('slide-banner', {
   template: `
   <div class="slider text-white overflow-hidden">
     <div class="container-lg">
-      <div class="row z-index-3">
-        <div class="col-6">
-          <div class="slide-item" :key="slidesIndex">
+      <div class="row">
+        <div class="col-sm-8 col-md-6 z-index-3">
+          <div class="slide-item text-center text-sm-left" :key="slidesIndex">
             <div class="h3 font-weight-light animate-slide delay-1">{{ slide.title }}</div>
             <div class="h1 font-weight-bold text-capitalize mb-5 animate-slide delay-2">
               {{ slide.desc }}

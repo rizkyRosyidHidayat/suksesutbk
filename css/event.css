@@ -23,3 +23,25 @@
 .event .card:hover .card-body{
   background-color: rgba(178, 76, 209, 0.5);
 } 
+.diff{
+  height: 350px;
+}
+.diff img{
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+  .bg-event{
+    background-size: 115%;
+    background-position-y: 200px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .diff{
+    height: auto;
+  }
+  .diff img{
+    width: 100%;
+  }
+}

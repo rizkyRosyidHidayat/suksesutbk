@@ -4,14 +4,16 @@ Vue.component('header-section', {
   template: `  
     <header class="navbar navbar-expand-md dark my-4 z-index-3">
       <div class="container-lg">
+        <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              
+          <img src="./icon/align_right.svg" alt="icon" height="40px">
+        </a>
         <a href="#" class="navbar-brand">              
           <img src="./img/logo_white.svg" alt="logo" height="40px">
         </a>
-        <!-- <div 
-          v-if="visible === true"
-          class="screen-hover-menu"
-        ></div> -->
-        <nav class="navbar-nav align-items-center position-relative">
+        <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              
+          <img src="./icon/account.svg" alt="icon" height="40px">
+        </a>
+        <nav class="navbar-nav align-items-center position-relative d-none d-lg-flex">
           <hover-menu
             v-for="item in navbar" 
             :key="item.text"
