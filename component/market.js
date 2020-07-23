@@ -36,7 +36,7 @@ Vue.component('market-section', {
           <div class="card rounded--lg border-0">
             <div class="card-body text-center text--blue">
               <img :src="'./img/'+item.img" alt="market" class="w-75 shadow-lg img-market">
-              <div class="mt-5">{{ selectedProduk.kategori }}</div>
+              <div class="mt-3 mt-sm-5">{{ selectedProduk.kategori }}</div>
               <h5 class="font-weight-bold">{{ item.title }}</h5>
             </div>
           </div>

@@ -60,3 +60,9 @@
   opacity: 1;
   left: 8px;
 }
+
+@media screen and (max-width: 320px){
+  .navbar-brand img{
+    height: 30px;
+  }
+}

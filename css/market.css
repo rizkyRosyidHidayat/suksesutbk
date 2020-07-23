@@ -36,3 +36,8 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 320px){
+  .img-market{
+    margin-top: -50px;
+  }
+}

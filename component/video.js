@@ -1,12 +1,12 @@
 Vue.component('video-testimoni', {
   template: `
-  <div class="container-fluid video pr-0">
+  <div class="container-fluid video px-0">
     <div class="swiper-container-video">
       <div class="swiper-wrapper pb-4">
         <div 
           v-for="(item, i) in video" :key="i"
           class="swiper-slide row mr-4 pb-5">
-          <div class="col-6">
+          <div class="col-12 col-sm-6 mb-3 mb-sm-0">
             <div 
               :style="{'background-image': item.img}"
               class="card shadow-lg border-0 rounded--lg">
@@ -17,7 +17,7 @@ Vue.component('video-testimoni', {
               </a>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <div class="h5 font-weight-bold">
               {{ item.title }}
             </div>

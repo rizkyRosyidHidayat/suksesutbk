@@ -45,3 +45,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 320px){
+  .event h4{
+    font-size: 16px;
+  }
+}

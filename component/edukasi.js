@@ -19,7 +19,7 @@ Vue.component('edukasi-section', {
           <div class="row">
             <div
               v-for="item in edukasi" :key="item.title" 
-              class="col-6">
+              class="col-12 col-sm-6">
               <div class="d-flex align-items-center mb-4">
                 <div class="box-icon bg-white shadow flex-shrink-0">
                   <img :src="'./img/'+item.img" alt="edukasi">
@@ -30,7 +30,7 @@ Vue.component('edukasi-section', {
               </div>
             </div>
           </div>
-          <div class="d-block d-md-flex align-items-center mt-sm-3 mt-md-5">
+          <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center mt-sm-3 mt-md-5">
             <a href="#" class="btn btn--blue rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
@@ -42,9 +42,9 @@ Vue.component('edukasi-section', {
                 </span>
               </div>
             </a>
-            <a href="#" class="ml-5">
+            <a href="#" class="ml-0 ml-md-5">
               <button
-                class="btn btn--text font-weight-bold text--blue p-0 mt-sm-5 mt-md-0">
+                class="btn btn--text font-weight-bold text--blue p-0 mt-5 mt-md-0">
                 Hubungi Kami
               </button>
             </a>

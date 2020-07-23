@@ -6,13 +6,13 @@ Vue.component('footer-section', {
         <div class="d-flex order-2 order-md-1">
           <div class="card border-0 rounded-lg shadow">
             <div class="card-body d-flex align-items-center">
-              <img src="./img/oxford.svg" alt="footer" width="120">
+              <img src="./img/oxford.svg" alt="footer" class="oxford" width="120">
               <div class="divider-vertical mx-3"></div>
               <span class="text-black-50 mr-4 font-weight-bold">Powered By</span>
-              <img src="./img/rh_logo.svg" alt="footer" width="60">
+              <img src="./img/rh_logo.svg" alt="footer" class="rh" width="60">
             </div>
           </div>
-          <div class="card border-0 rounded-lg ml-3 shadow">
+          <div class="card border-0 rounded-lg ml-3 shadow d-none d-sm-block">
             <div class="card-body d-flex align-items-center p-2">
               <img src="./img/qrcode.jpeg" alt="footer" width="84">
             </div>

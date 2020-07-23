@@ -2,6 +2,17 @@ Vue.component('fitur-section', {
   template: `
   <section class="fitur text--purple">
     <div class="container-lg">
+      <div class="card border-0 shadow rounded--lg mb-5 d-block d-sm-none">
+        <div 
+          v-for="(item, i) in fitur" :key="i"
+          @click="fiturIndex = i"
+          class="card-body d-flex align-items-center">
+          <img :src="'./img/'+item.img" alt="icon fitur" class="mr-2" width="50">
+          <div class="h5 font-weight-bold">
+            {{ item.title }}
+          </div>
+        </div>
+      </div>
       <div class="row align-items-center">
         <div class="col-sm-7 col-md-6 overflow-hidden" :key="fiturIndex">
           <div class="h1 font-weight-bold animate-slide">
@@ -10,7 +21,7 @@ Vue.component('fitur-section', {
           <div class="mb-5 text-black-50 animate-slide delay-2">
             {{ fitur[fiturIndex].desc }}
           </div>
-          <div class="d-block d-md-flex align-items-md-center animate-slide delay-3 mb-3">
+          <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center animate-slide delay-3 mb-3">
             <a href="#" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
@@ -22,9 +33,9 @@ Vue.component('fitur-section', {
                 </span>
               </div>
             </a>
-            <a href="#" class="ml-5">
+            <a href="#" class="ml-0 ml-md-5">
               <button
-                class="btn btn--text font-weight-bold text--purple p-0 mt-sm-5 mt-md-0">
+                class="btn btn--text font-weight-bold text--purple p-0 mt-5 mt-md-0">
                 Hubungi Kami
               </button>
             </a>

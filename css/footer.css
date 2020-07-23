@@ -24,3 +24,12 @@
   margin-bottom: -32px;
   margin-top: 32px;
 }
+
+@media screen and (max-width: 320px){
+  .oxford{
+    width: 80px;
+  }
+  .rh{
+    width: 40px;
+  }
+}

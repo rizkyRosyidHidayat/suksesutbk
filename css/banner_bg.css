@@ -90,3 +90,18 @@
     width: 200px;
   }
 }
+
+@media screen and (max-width: 320px){
+  .hero-bg-top{
+    width:180vw;
+    transform:translateY(-70%) translateX(10%);
+  }
+  .image-change, .shape-8{
+    max-width: 250%;
+    right: -20%;
+    top: 50px;
+  }
+  .hero-bg{
+    height: 180vh;
+  }
+}

@@ -9,6 +9,7 @@
 }
 .swiper-slide{
   width: 40%;
+  height: 200px;
 }
 .desc-testimoni::before{
   content: '';
@@ -84,5 +85,20 @@
 @media screen and (max-width: 576px){
   .testimoni-desc{
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .swiper-slide{
+    height: auto;
+  }
+  .swiper-container{
+    height: 350px;
+  }
+  .desc-testimoni::before{
+    display: none;
+  }
+  .desc-testimoni{
+    padding-left: 0px;
   }
 }

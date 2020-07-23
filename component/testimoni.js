@@ -27,11 +27,11 @@ Vue.component('testimoni-section', {
         </a>
       </div>
     </div>
-    <div class="container-fluid mt-4 pr-0 overflow-hidden">
+    <div class="container-fluid mt-4 px-0 overflow-hidden">
       <div class="swiper-container">
         <div class="swiper-wrapper pb-4">
           <div v-for="(item, i) in testimoni" :key="i" class="swiper-slide pr-4">
-            <div class="card-body rounded-lg shadow bg-white d-flex align-items-center" style="height: 200px;">
+            <div class="card-body rounded-lg shadow bg-white d-flex align-items-center">
               <div>
                 <div class="h5 font-weight-bold">{{ item.title }}</div>
                 <div class="desc-testimoni">
