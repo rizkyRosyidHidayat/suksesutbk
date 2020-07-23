@@ -11,7 +11,7 @@ Vue.component('slide-banner', {
             </div>
             <a :href="slide.link" class="btn btn--primary rounded-pill font-weight-bold btn-lg bg-white text--primary text-uppercase pr-2 shadow animate-slide delay-3">
               <div class="d-flex align-items-center">
-                <div class="mr-3">gabung sekarang</div>
+                <div class="mr-3">daftar sekarang</div>
                 <span class="icon-btn-primary">
                   <svg class="bi bi-arrow-right" width="25" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
@@ -39,16 +39,16 @@ Vue.component('slide-banner', {
   `,
   data: () => ({
     slides: [
-      { title: 'Penawaran terbaik tahun ini', desc: `
-        bergabung bersama kami sekarang juga
+      { title: '#WujudkanImpianmu', desc: `
+        Nilai UTBK Terbaik, Kuliah Di PTN Dan Prodi Favorit
       `, link: '#', img: 'image.webp' },
-      { title: 'Penawaran terbaik tahun ini', desc: `
+      { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
       `, link: '#', img: 'image1.webp' },
-      { title: 'Penawaran terbaik tahun ini', desc: `
+      { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
       `, link: '#', img: 'image2.webp' },
-      { title: 'Penawaran terbaik tahun ini', desc: `
+      { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
       `, link: '#', img: 'image3.webp' }
     ],

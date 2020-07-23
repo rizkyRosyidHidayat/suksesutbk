@@ -17,7 +17,7 @@ Vue.component('daftar-section', {
                 Impedit maiores ipsa inventore facere praesentium ea quisquam.
               </div>
             </div>
-            <div class="col-sm-12 col-md-8 d-block d-sm-flex mt-sm-5">
+            <div class="col-sm-12 col-md-8 d-block d-sm-flex mt-5 mt-md-0">
               <text-field
                 id="nohp"
                 label="Nomor Handphone"

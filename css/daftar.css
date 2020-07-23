@@ -23,6 +23,7 @@
 .text-field{
   border-bottom: 1px solid #ffffff;
   position: relative;
+  height: 40px;
 }
 .text-field-placeholder{
   position: absolute;

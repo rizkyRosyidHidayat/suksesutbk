@@ -67,19 +67,19 @@ Vue.component('fitur-section', {
   data: () => ({
     fitur: [
       {
-        title: 'Lorem Ipsum Dolor',
+        title: 'Full Online',
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
         saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
         img: 'icon-fitur.PNG'
       },
       {
-        title: 'Senang Sekali',
+        title: 'Semi Online',
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
         saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
         img: 'icon-fitur.PNG'
       },
       {
-        title: 'Mudah Sekali',
+        title: 'PC/Android/iOS',
         desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
         saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
         img: 'icon-fitur.PNG'

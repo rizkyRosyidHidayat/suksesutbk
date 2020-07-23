@@ -7,8 +7,10 @@
 .testimoni-desc{
   width: 50%;
 }
-.swiper-slide{
+.testimoni .swiper-slide{
   width: 40%;
+}
+.testimoni .swiper-slide .card-body{
   height: 200px;
 }
 .desc-testimoni::before{
@@ -74,7 +76,7 @@
 }
 
 @media screen and (max-width: 768px){
-  .swiper-slide{
+  .testimoni .swiper-slide{
     width: 80%;
   }
   .testimoni .swiper-wrapper{

@@ -4,9 +4,9 @@ Vue.component('market-section', {
     <div class="container-lg">
       <h1>
         <span class="font-weight-bold text-warning">
-          Suksesutbk
+          PAKET TRYOUT
         </span>
-        Market
+        UTBK
       </h1>
       <div class="d-block d-sm-flex justify-content-between align-items-center">
         <div class="desc-market mb-5 mb-sm-0">
@@ -26,7 +26,7 @@ Vue.component('market-section', {
           </div>
         </div>
         <a href="#" class="btn bg--primary rounded-pill text-white font-weight-bold px-5">
-          Market
+          Selengkapnya
         </a>
       </div>
       <div class="row">
