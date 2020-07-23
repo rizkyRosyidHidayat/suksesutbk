@@ -1,0 +1,44 @@
+.w-80, .w-md-80{
+  width: 80%;
+}
+.btn-maps{
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+}
+
+.icon-btn-primary{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #F57045;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  overflow: hidden;
+}
+.text--primary{
+  color: #F57045;
+}
+.btn--primary:hover{
+  color: #F57045;
+}
+.btn--primary:hover .icon-btn-primary{
+  background-color: #FFA845;  
+}
+.btn--primary:hover .icon-btn-primary svg{
+  animation-name: iconBtnPrimary;
+  animation-duration: 400ms;
+}
+@keyframes iconBtnPrimary{
+  0%{transform: translateX(-100%);}
+  50%{transform: translateX(100%);}
+  100%{transform: translateX(0%);}
+}
+
+@media screen and (max-width: 768px){
+  .w-md-80{
+    width: 100%;
+  }
+}

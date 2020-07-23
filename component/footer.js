@@ -18,7 +18,7 @@ Vue.component('footer-section', {
             </div>
           </div>
         </div>
-        <div class="order-1 order-md-2 mb-5 mb-sm-0">
+        <div class="order-1 order-md-2 mb-5 mb-md-0">
           <div class="text-black-50 mb-2 font-weight-bold text-center text-md-left" style="margin-left: 16px;">Sosial Media</div>
           <div class="d-flex">
             <a href="#" class="icon-footer shadow">

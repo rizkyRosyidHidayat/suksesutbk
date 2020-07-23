@@ -9,12 +9,14 @@ import '../component/menu_footer.js'
 import '../component/footer.js'
 import '../component/market.js'
 import '../component/video.js'
+import '../component/kontak/maps.js'
+import '../component/kontak/form.js'
 
 const app = new Vue({
   el: '#app',
   data: {
     navbar: [
-      { text: 'Home', link: '#', child: [] },
+      { text: 'Home', link: 'index.html', child: [] },
       // { text: 'Penawaran', link: 'javascript:void(0)', child: [
       //   { 
       //     text: 'Menarik Sekali',
@@ -44,7 +46,7 @@ const app = new Vue({
       { text: 'Tentang Kami', link: '#', child: [] },
       { text: 'Fitur', link: '#', child: [] },
       { text: 'Paket', link: '#', child: [] },
-      { text: 'Kontak', link: '#', child: [] }
+      { text: 'Kontak', link: 'kontak.html', child: [] }
     ],    
   }
 })

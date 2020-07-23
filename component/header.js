@@ -7,7 +7,7 @@ Vue.component('header-section', {
         <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              
           <img src="./icon/align_right.svg" alt="icon" height="40px">
         </a>
-        <a href="#" class="navbar-brand">              
+        <a href="index.html" class="navbar-brand">              
           <img src="./img/logo_white.svg" alt="logo" height="40px">
         </a>
         <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              

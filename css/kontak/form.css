@@ -1,0 +1,45 @@
+.form-kontak{
+  margin-top: 130px;
+}
+.text-field{
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  height: 40px;
+}
+.text-field-placeholder{
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.text-field-placeholder.active{
+  top: -20px;
+  font-size: 12px;
+}
+.field-kontak{
+  border-bottom: 1px solid silver !important;
+}
+
+.btn--primary:hover .icon-plus svg{
+  animation-name: iconPlus;
+  animation-duration: 400ms;
+}
+@keyframes iconPlus{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(180deg);}
+}
+.box-icon{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.box-icon img{
+  width: 40px;
+}
+@media screen and (max-width: 564px){
+  .w-sm-80{
+    width: 100%;
+  }
+}
