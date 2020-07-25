@@ -1,0 +1,55 @@
+.school-bg{
+  /* top: 0;
+  left: 0; */
+  z-index: -1;
+  /* position: absolute; */
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-height: 1240px;
+  min-height: 1200px;
+}
+.logo-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: left top;
+  object-position: left top;
+  max-width: 830px;
+  width: 45vw;
+}
+.subpage-bg-right{
+  position: absolute;
+  max-width: 450px;
+  right: 0;
+  top: 60px;
+  transform: translateX(75%);
+  pointer-events: none;
+  user-select: none;
+}
+.z-index-1{ z-index: 1; }
+.z-index-2{ z-index: 2; }
+.z-index-3{ z-index: 3; }
+
+@media screen and (max-width: 768px){
+  .contact-logo-bg{
+    left: -200px;
+    width: 60vw;
+  }
+  .subpage-bg-right{
+    max-width: 200px;
+    top: 100px;
+  }
+  .logo-bg{
+    height: 800px;
+  }
+}
+@media screen and (max-width: 320px){
+  .subpage-bg-right{
+    max-width: 100px;
+    top: 100px;
+  }
+}

@@ -10,8 +10,18 @@ Vue.component('maps-section', {
         <p class="text-white-50 mb-5 mt-3">
           Lorem ipsum lorem dolor sit amet ipuf
         </p>
-        <div class="btn bg-white rounded-pill text-black-50 font-weight-bold mb-4">
-          Lokasi Kantor
+        <div class="card-body rounded-pill bg-white py-0 shadow my-4 d-inline-block">
+          <nav class="nav justify-content-center">
+            <a class="nav-link text-black-50 font-weight-bold px-0" href="index.html">
+              Home
+              <span class="mx-2">
+                <img src="./icon/chevron_right.svg" alt="icon">
+              </span>
+            </a>
+            <a class="nav-link text-black-50 font-weight-bold px-0" href="kontak.html">
+              Kontak
+            </a>
+          </nav>
         </div>
         <div class="card border-0 rounded--lg shadow-lg overflow-hidden">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.406760622159!2d110.40323681415384!3d-7.746607478946875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a88ae6f4d7%3A0xbf14bc634892c152!2sDigital%20Inovasi%20Bangsa!5e0!3m2!1sen!2sid!4v1595493451763!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

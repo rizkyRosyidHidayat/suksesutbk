@@ -1,0 +1,29 @@
+.carousel{
+  margin-top: 70px;
+  margin-left: 10%;
+}
+.swiper-slide{
+  overflow: hidden;
+  height: 250px;
+  border-radius: 20px;
+  width: 400px;
+}
+.swiper-slide img{
+  object-fit: cover;
+}
+.btn-nav-right svg, .btn-nav-left svg{
+  fill: #F57045;
+  width: 20px;
+}
+.dash-right, .dash-left{
+  width: 0px !important;
+  transition: width 0.1s ease;
+}
+.btn-nav-right:hover .dash-right{
+  margin-right: -10px;
+  width: 20px !important;
+}
+.btn-nav-left:hover .dash-left{
+  margin-left: -10px;
+  width: 20px !important;
+}

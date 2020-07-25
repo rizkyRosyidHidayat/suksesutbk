@@ -1,0 +1,25 @@
+.nav-link{
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+.nav-link.active{
+  border-bottom: 3px solid #7569DE;
+}
+.animate-fadeAway{
+  animation-name: fadeAway;
+  animation-duration: 1s;
+  position: relative;
+}
+@keyframes fadeAway{
+  0%{
+    opacity: 0.4;
+  }
+  50%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,3 +1,7 @@
+#fixedHeader{
+  top: -90px;
+  transition: top 0.2s ease;
+}
 .navbar-nav > div{
   transition: opacity 0.2s ease;
 }
@@ -19,6 +23,18 @@
   background-color: #ffffff;
   color: #F57045;
 }
+.btn-outline--primary{
+  border: 1px solid #F57045;
+  color: #F57045;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.btn-outline--primary:hover{
+  background-color: #F57045;
+  color: #ffffff;
+}
 .icon-btn-outline-animate, .icon-list-animate, .icon-text-animate{
   position: relative;
   margin-left: 16px;  
@@ -26,6 +42,9 @@
   transition: all 0.2s ease-in-out;
 }
 .btn-outline--white:hover .icon-btn-outline-animate{
+  left: 8px;
+}
+.btn-outline--primary:hover .icon-btn-outline-animate{
   left: 8px;
 }
 .btn--text:hover{ color: #F57045 !important; }

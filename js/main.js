@@ -1,3 +1,4 @@
+import '../component/fixed_header.js'
 import '../component/header.js'
 import '../component/slide_banner.js'
 import '../component/fitur.js'
@@ -11,6 +12,10 @@ import '../component/market.js'
 import '../component/video.js'
 import '../component/kontak/maps.js'
 import '../component/kontak/form.js'
+import '../component/tentang/desc.js'
+import '../component/tentang/carousel.js'
+import '../component/tentang/tabs.js'
+import '../component/tentang/form.js'
 
 const app = new Vue({
   el: '#app',
@@ -43,13 +48,25 @@ const app = new Vue({
       //     aktif: false
       //   },
       // ] },
-      { text: 'Tentang Kami', link: '#', child: [] },
+      { text: 'Tentang Kami', link: 'tentang.html', child: [] },
       { text: 'Fitur', link: '#', child: [] },
       { text: 'Paket', link: '#', child: [] },
       { text: 'Kontak', link: 'kontak.html', child: [] }
     ],    
   }
 })
+
+var header = document.querySelector('#fixedHeader')
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      header.style.cssText = "top: 0px"
+  } else {
+      header.style.cssText = "top: -90px"
+  }
+}
 
 const testimoni = new Swiper('.swiper-container', {
   slidesPerView: 'auto',
@@ -70,4 +87,15 @@ const video = new Swiper('.swiper-container-video', {
     el: '.swiper-pagination-video',
     clickable: true,
   }
+})
+const tentang = new Swiper('.swiper-container-tentang', {
+  slidesPerView: 'auto',
+  // centeredSlides: true,
+  spaceBetween: 16,
+  grabCursor: true,
+  // loop: true
+  navigation: {
+    nextEl: '.btn-nav-right',
+    prevEl: '.btn-nav-left',
+  },
 })

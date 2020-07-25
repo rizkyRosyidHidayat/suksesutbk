@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/tentang/banner_bg.css">
+  <link rel="stylesheet" href="./css/tentang/desc.css">
+  <link rel="stylesheet" href="./css/tentang/carousel.css">
+  <link rel="stylesheet" href="./css/tentang/tabs.css">
+  <link rel="stylesheet" href="./css/tentang/form.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/daftar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Suksesutbk</title>
+</head>
+<body>
+  <div id="app">
+    <div class="banner-bg overflow-hidden position-relative">
+      <img src="./img/tentang/school_bg.svg" alt="banner" class="school-bg">
+      <img src="./img/tentang/logo-bg.svg" alt="banner" class="logo-bg">
+      <img src="./img/tentang/subpage-bg-right.svg" alt="banner" class="subpage-bg-right">
+    </div>
+    <div class="main">
+      <fixed-header :navbar="navbar"></fixed-header>
+      <header-section :navbar="navbar"></header-section>
+      <desc-section></desc-section>
+      <carousel-section></carousel-section>
+      <tabs-section></tabs-section>
+      <form-tentang></form-tentang>
+      <daftar-section></daftar-section>
+      <menu-footer></menu-footer>
+      <footer-section></footer-section>
+    </div>
+  </div>
+  <script src="./js/vue.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
