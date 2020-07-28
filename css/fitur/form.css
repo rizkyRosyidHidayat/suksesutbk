@@ -1,0 +1,53 @@
+.form-kontak{
+  margin-top: 170px;
+}
+.form-kontak .list-group-item{
+  background-color: transparent;
+  cursor: pointer;
+}
+.notActive{
+  /* border: 1px solid rgba(0,0,0,.125) !important; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.notActive .card{
+  background-color: transparent !important;
+}
+.notActive svg{
+  transform: rotate(360deg) !important;
+  fill: grey !important;
+}
+.notActive .text--purple{
+  color: grey;
+}
+.notActive .card-body{
+  display: none;
+}
+.form-kontak .card-body{
+  transition: all 0.2s ease;
+}
+.text-field{
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  height: 40px;
+}
+.text-field-placeholder{
+  position: absolute;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.text-field-placeholder.active{
+  top: -20px;
+  font-size: 12px;
+}
+.field-kontak{
+  border-bottom: 1px solid silver !important;
+}
+.btn--primary:hover .icon-plus svg{
+  animation-name: iconPlus !important;
+  animation-duration: 400ms;
+}
+@keyframes iconPlus{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(180deg);}
+}

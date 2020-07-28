@@ -10,12 +10,19 @@ import '../component/menu_footer.js'
 import '../component/footer.js'
 import '../component/market.js'
 import '../component/video.js'
+import '../component/hidden_menu.js'
 import '../component/kontak/maps.js'
 import '../component/kontak/form.js'
 import '../component/tentang/desc.js'
 import '../component/tentang/carousel.js'
 import '../component/tentang/tabs.js'
 import '../component/tentang/form.js'
+import '../component/fitur/banner.js'
+import '../component/fitur/fitur.js'
+import '../component/fitur/team.js'
+import '../component/fitur/media.js'
+import '../component/fitur/testimoni.js'
+import '../component/fitur/form.js'
 
 const app = new Vue({
   el: '#app',
@@ -49,10 +56,16 @@ const app = new Vue({
       //   },
       // ] },
       { text: 'Tentang Kami', link: 'tentang.html', child: [] },
-      { text: 'Fitur', link: '#', child: [] },
+      { text: 'Fitur', link: 'fitur.html', child: [] },
       { text: 'Paket', link: '#', child: [] },
       { text: 'Kontak', link: 'kontak.html', child: [] }
-    ],    
+    ],  
+    visibleMenu: false  
+  },
+  methods: {
+    changeVisible(val) {
+      this.visibleMenu = val
+    }
   }
 })
 
@@ -94,6 +107,41 @@ const tentang = new Swiper('.swiper-container-tentang', {
   spaceBetween: 16,
   grabCursor: true,
   // loop: true
+  navigation: {
+    nextEl: '.btn-nav-right',
+    prevEl: '.btn-nav-left',
+  },
+  breakpoints: {
+    500: {
+      slidesPerView: 1,
+    }
+  }
+})
+const team = new Swiper('.swiper-container-team', {
+  slidesPerView: 3,
+  // centeredSlides: true,
+  spaceBetween: 32,
+  grabCursor: true,
+  loop: true,
+  navigation: {
+    nextEl: '.btn-nav-right',
+    prevEl: '.btn-nav-left',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 16
+    },
+    500: {
+      slidesPerView: 1,
+    }
+  }
+})
+const testimoni_fitur = new Swiper('.swiper-container-testimoni-fitur', {
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  // spaceBetween: 30,
+  grabCursor: true,
   navigation: {
     nextEl: '.btn-nav-right',
     prevEl: '.btn-nav-left',

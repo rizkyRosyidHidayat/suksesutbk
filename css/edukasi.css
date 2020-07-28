@@ -21,12 +21,12 @@
 }
 
 @media screen and (max-width: 768px){
-  .box-icon{
+  .edukasi .box-icon{
     width: 45px;
     height: 45px;
     border-radius: 10px;
 }
-  .box-icon img{
+  .edukasi .box-icon img{
     width: 30px;
   }
 }

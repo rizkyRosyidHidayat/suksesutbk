@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
   .hero-bg-top{
     width:180vw;
     transform:translateY(-70%) translateX(10%);

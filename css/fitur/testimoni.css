@@ -1,5 +1,10 @@
 .testimoni{
-  margin-top: 230px;
+  padding-top: 200px;
+}
+.bg-testimoni{
+  background-image: url('../../img/fitur/landing-minidil-red-shape.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .testimoni .swiper-wrapper{
   margin-left: -20%;
@@ -15,7 +20,7 @@
 }
 .desc-testimoni::before{
   content: '';
-  background-image: url('../img/quote.svg');
+  background-image: url('../../img/quote.svg');
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
@@ -31,51 +36,11 @@
   overflow-x: hidden;
   height: 300px;
 }
-.swiper-pagination{
-  bottom: 0px !important;
-}
-.swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  border-radius: 100%;
-  cursor: pointer;
-  margin: 0 8px;
-  transition: all 0.2s ease;
-}
-.swiper-pagination-bullet-active {
-  background-color: #F57045;
-  width: 200px;
-  border-radius: 20px;
-}
-/* video */
-.video{
-  margin-top: 130px;
-}
-.video .card{
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  background-position: center;
-}
-.swiper-container-video{
-  overflow-x: hidden;
-}
-.video .swiper-slide{
-  width: 80%;
-}
-.video .icon-footer{
-  width: 70px;
-  height: 70px;
-}
-.video .icon-footer svg{
-  width: 50px;
-}
 
 @media screen and (max-width: 768px){
+  .testimoni{
+    padding-top: 100px;
+  }
   .testimoni .swiper-slide{
     width: 80%;
   }
@@ -91,8 +56,11 @@
 }
 
 @media screen and (max-width: 500px){
-  .swiper-slide{
+  .testimoni .swiper-slide .card-body{
     height: auto;
+  }
+  .bg-testimoni{
+    background-position-y: 300px;
   }
   .swiper-container{
     height: 350px;

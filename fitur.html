@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/fitur/banner_bg.css">
+  <link rel="stylesheet" href="./css/fitur/fitur.css">
+  <link rel="stylesheet" href="./css/fitur/team.css">
+  <link rel="stylesheet" href="./css/fitur/testimoni.css">
+  <link rel="stylesheet" href="./css/fitur/form.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/edukasi.css">
+  <link rel="stylesheet" href="./css/banner.css">
+  <link rel="stylesheet" href="./css/daftar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Suksesutbk</title>
+</head>
+<body>
+  <div id="app">
+    <div class="banner-bg overflow-hidden position-relative">
+      <img src="./img/fitur/landing-shape-bg.svg" alt="" class="landing-shape-bg d-none d-md-block">
+      <img src="./img/fitur/landing-hero-mobile-bg.svg" alt="" class="d-block d-md-none">
+    </div>
+    <div class="main" style="overflow-x: visible;">
+      <fixed-header :navbar="navbar"></fixed-header>
+      <header-section :navbar="navbar" class="position-lg-absolute w-100" style="z-index: 2;"></header-section>
+      <banner-fitur></banner-fitur>
+      <fitur-fitur></fitur-fitur>
+      <team-section></team-section>
+      <media-section></media-section>
+      <div class="bg-testimoni">
+        <testimoni-fitur></testimoni-fitur>
+        <form-fitur></form-fitur>
+      </div>
+      <daftar-section></daftar-section>
+      <menu-footer></menu-footer>
+      <footer-section></footer-section>
+    </div>
+  </div>
+  <script src="./js/vue.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

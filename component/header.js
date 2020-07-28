@@ -3,8 +3,11 @@ import './header/hover_menu.js'
 Vue.component('header-section', {
   template: `  
     <header class="navbar navbar-expand-md dark my-4 z-index-3">
-      <div class="container-lg">
-        <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              
+      <div class="container-lg px-0">
+        <a 
+          @click="$emit('change-visible', true)"
+          href="javascript:void(0)" 
+          class="navbar-brand d-block d-lg-none">              
           <img src="./icon/align_right.svg" alt="icon" height="40px">
         </a>
         <a href="index.html" class="navbar-brand">              

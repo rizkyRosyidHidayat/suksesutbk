@@ -1,0 +1,49 @@
+.team{
+  padding-top: 170px;
+  background-image: url('../../img/fitur/landing-shape-bg-yellow.svg');
+  background-position-x: right;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+.team .nav-link{
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+.team .nav-link.active{
+  border-bottom-color:#9ecb45;
+  color: #9ecb45;
+}
+.btn-nav-right svg, .btn-nav-left svg{
+  fill: #F57045;
+  width: 20px;
+}
+.dash-right, .dash-left{
+  width: 0px !important;
+  transition: width 0.1s ease;
+}
+.btn-nav-right:hover .dash-right{
+  margin-right: -10px;
+  width: 20px !important;
+}
+.btn-nav-left:hover .dash-left{
+  margin-left: -10px;
+  width: 20px !important;
+}
+.animate-fadeAway{
+  animation-name: fadeAway;
+  animation-duration: 1s;
+}
+@keyframes fadeAway{
+  0%{
+    opacity: 0.4;
+  }
+  50%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

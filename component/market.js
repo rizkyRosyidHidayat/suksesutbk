@@ -20,7 +20,6 @@ Vue.component('market-section', {
               class="btn btn--market rounded-pill"
               @click="selectedKategori=item"
               :class="{'active': item==selectedKategori?true:false}">
-              <img src="./icon/circle.svg" alt="circle">
               <span class="mx-2 mx-sm-3 mx-lg-4">{{ item }}</span>
             </button>
           </div>

@@ -3,7 +3,7 @@ Vue.component('desc-section', {
   <section class="mt-5">
     <div class="container-lg">
       <div class="d-flex justify-content-center">
-        <div class="w-50 text-center text-white">
+        <div class="w-sm-100 w-50 text-center text-white">
           <h3 class="text-warning font-weight-bold">
             TENTANG SUKSESUTBK
           </h3>
@@ -28,10 +28,10 @@ Vue.component('desc-section', {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor 
             totam ad harum nam odit doloremque repellendus ratione in?
           </p>
-          <div class="row">
+          <div class="row" style="margin-top: 130px;">
             <div 
               v-for="(item, i) in icon"
-              class="col-3 text-center px-4">
+              class="col-6 col-sm-3 text-center px-2 px-sm-4 mb-4 mb-sm-0">
               <div class="card rounded--lg border-0 box-icon-2 mb-3">
                 <img :src="'./img/'+item.img" alt="tentang" class="w-50">
               </div>

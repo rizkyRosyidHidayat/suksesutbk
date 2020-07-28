@@ -43,9 +43,6 @@
     max-width: 200px;
     top: 100px;
   }
-  .logo-bg{
-    height: 800px;
-  }
 }
 @media screen and (max-width: 320px){
   .subpage-bg-right{
