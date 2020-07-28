@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/daftar.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/hidden_menu.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Suksesutbk</title>
 </head>
@@ -23,14 +24,15 @@
       <img src="./img/kontak/blog-bg-right.svg" alt="banner" class="blog-bg-right">
     </div>
     <div class="main" style="overflow-x: visible;">
-      <fixed-header :navbar="navbar"></fixed-header>
-      <header-section :navbar="navbar"></header-section>
+      <fixed-header :navbar="navbar" @change-visible="changeVisible"></fixed-header>
+      <header-section :navbar="navbar" @change-visible="changeVisible"></header-section>
       <maps-section></maps-section>
       <form-kontak></form-kontak>
       <daftar-section></daftar-section>
       <menu-footer></menu-footer>
       <footer-section></footer-section>
     </div>
+    <hidden-menu :navbar="navbar" :visible-menu="visibleMenu" @change-visible="changeVisible"></hidden-menu>
   </div>
   <script src="./js/vue.js"></script>
   <script src="./js/swiper.min.js"></script>

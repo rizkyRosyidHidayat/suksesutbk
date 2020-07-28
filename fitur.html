@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/banner.css">
   <link rel="stylesheet" href="./css/daftar.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/hidden_menu.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Suksesutbk</title>
 </head>
@@ -26,8 +27,8 @@
       <img src="./img/fitur/landing-hero-mobile-bg.svg" alt="" class="d-block d-md-none">
     </div>
     <div class="main" style="overflow-x: visible;">
-      <fixed-header :navbar="navbar"></fixed-header>
-      <header-section :navbar="navbar" class="position-lg-absolute w-100" style="z-index: 2;"></header-section>
+      <fixed-header :navbar="navbar" @change-visible="changeVisible"></fixed-header>
+      <header-section :navbar="navbar" @change-visible="changeVisible" class="position-lg-absolute w-100" style="z-index: 2;"></header-section>    
       <banner-fitur></banner-fitur>
       <fitur-fitur></fitur-fitur>
       <team-section></team-section>
@@ -40,6 +41,7 @@
       <menu-footer></menu-footer>
       <footer-section></footer-section>
     </div>
+    <hidden-menu :navbar="navbar" :visible-menu="visibleMenu" @change-visible="changeVisible"></hidden-menu>
   </div>
   <script src="./js/vue.js"></script>
   <script src="./js/swiper.min.js"></script>

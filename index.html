@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/daftar.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/market.css">
+  <link rel="stylesheet" href="./css/hidden_menu.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Suksesutbk</title>
 </head>
@@ -29,8 +30,8 @@
       <img src="./img/shape-1.svg" alt="banner" class="shape-1">
     </div>
     <div class="main">
-      <fixed-header :navbar="navbar"></fixed-header>
-      <header-section :navbar="navbar"></header-section>
+      <fixed-header :navbar="navbar" @change-visible="changeVisible"></fixed-header>
+      <header-section :navbar="navbar" @change-visible="changeVisible"></header-section>
       <slide-banner></slide-banner>
       <fitur-section></fitur-section>
       <market-section></market-section>
@@ -44,6 +45,7 @@
       <menu-footer></menu-footer>
       <footer-section></footer-section>
     </div>    
+    <hidden-menu :navbar="navbar" :visible-menu="visibleMenu" @change-visible="changeVisible"></hidden-menu>
   </div>
   <script src="./js/vue.js"></script>
   <script src="./js/swiper.min.js"></script>
