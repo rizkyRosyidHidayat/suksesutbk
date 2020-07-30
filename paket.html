@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./css/swiper.min.css"> -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/kontak/banner_bg.css">
+  <link rel="stylesheet" href="./css/paket/paket.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/daftar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/hidden_menu.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Suksesutbk</title>
+</head>
+<body>
+  <div id="app">
+    <div class="banner-bg overflow-hidden position-relative">
+      <img src="./img/gallery-logo-bg.svg" alt="banner" class="contact-logo-bg">
+      <img src="./img/kontak/news-bg.svg" alt="banner" class="news-bg">
+      <img src="./img/kontak/blog-bg-right.svg" alt="banner" class="blog-bg-right">
+    </div>
+    <div class="main">
+      <fixed-header :navbar="navbar" @change-visible="changeVisible"></fixed-header>
+      <header-section :navbar="navbar" @change-visible="changeVisible"></header-section>
+      <desc-paket></desc-paket>
+      <paket-paket></paket-paket>
+      <daftar-section></daftar-section>
+      <!-- <menu-footer></menu-footer> -->
+      <footer-section></footer-section>
+    </div>
+    <hidden-menu :navbar="navbar" :visible-menu="visibleMenu" @change-visible="changeVisible"></hidden-menu>
+  </div>
+  <script src="./js/vue.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

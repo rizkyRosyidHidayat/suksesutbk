@@ -23,6 +23,8 @@ import '../component/fitur/team.js'
 import '../component/fitur/media.js'
 import '../component/fitur/testimoni.js'
 import '../component/fitur/form.js'
+import '../component/paket/desc.js'
+import '../component/paket/paket.js'
 
 const app = new Vue({
   el: '#app',
@@ -57,7 +59,7 @@ const app = new Vue({
       // ] },
       { text: 'Tentang Kami', link: 'tentang.html', child: [] },
       { text: 'Fitur', link: 'fitur.html', child: [] },
-      { text: 'Paket', link: '#', child: [] },
+      { text: 'Paket', link: 'paket.html', child: [] },
       { text: 'Kontak', link: 'kontak.html', child: [] }
     ],  
     visibleMenu: false  

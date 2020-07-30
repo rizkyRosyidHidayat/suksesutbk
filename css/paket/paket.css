@@ -1,0 +1,96 @@
+.paket{
+  margin-top: 100px;
+}
+.paket .card{
+  transition: box-shadow 0.1s ease;
+}
+.paket .card:hover{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.paket .btn--primary{
+  background-color: #F3F7FC;
+  transition: all 0.1s ease;
+}
+.icon-btn-primary{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #F57045;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  overflow: hidden;
+}
+.btn--primary:hover .icon-btn-primary svg{
+  animation-name: iconBtnPrimary;
+  animation-duration: 400ms;
+}
+@keyframes iconBtnPrimary{
+  0%{transform: translateX(-100%);}
+  50%{transform: translateX(100%);}
+  100%{transform: translateX(0%);}
+}
+.card-paket:nth-child(1){
+  color: #ffca2a;
+}
+.card-paket:nth-child(1) .btn--primary{
+  color: #ffca2a;
+}
+.card-paket:nth-child(1) .icon-btn-primary{
+  background-color: #ffca2a;
+}
+.card-paket:nth-child(1) .btn--primary:hover{
+  background-color: #ffca2a;
+  color: #fff;
+}
+.card-paket:nth-child(1) .btn--primary:hover .icon-btn-primary{
+  background-color: #fff;
+}
+.card-paket:nth-child(1) .btn--primary:hover svg{
+  fill: #ffca2a;
+}
+.card-paket:nth-child(2){
+  color: #3d8cff;
+}
+.card-paket:nth-child(2) .btn--primary{
+  color: #3d8cff;
+}
+.card-paket:nth-child(2) .icon-btn-primary{
+  background-color: #3d8cff;
+}
+.card-paket:nth-child(2) .btn--primary:hover{
+  background-color: #3d8cff;
+  color: #fff;
+}
+.card-paket:nth-child(2) .btn--primary:hover .icon-btn-primary{
+  background-color: #fff;
+}
+.card-paket:nth-child(2) .btn--primary:hover svg{
+  fill: #3d8cff;
+}
+.card-paket:nth-child(3){
+  color: #ff6845;
+}
+.card-paket:nth-child(3) .btn--primary{
+  color: #ff6845;
+}
+.card-paket:nth-child(3) .icon-btn-primary{
+  background-color: #ff6845;
+}
+.card-paket:nth-child(3) .btn--primary:hover{
+  background-color: #ff6845;
+  color: #fff;
+}
+.card-paket:nth-child(3) .btn--primary:hover .icon-btn-primary{
+  background-color: #fff;
+}
+.card-paket:nth-child(3) .btn--primary:hover svg{
+  fill: #ff6845;
+}
+
+@media screen and (max-width: 500px){
+  .paket{
+    margin-top: 0px;
+  }
+}

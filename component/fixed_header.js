@@ -14,7 +14,7 @@ Vue.component('fixed-header', {
           <img src="./img/logo_color.svg" alt="logo" height="40px">
         </a>
         <a href="javascript:void(0)" class="navbar-brand d-block d-lg-none">              
-          <img src="./img/favicon.png" alt="logo" height="40px">          
+          <img src="./icon/account2.svg" alt="logo" height="40px">          
         </a>
         <nav class="navbar-nav align-items-center position-relative d-none d-lg-flex">
           <a 

@@ -7,7 +7,7 @@ Vue.component('maps-section', {
           <span class="text-warning font-weight-bold">EDUBRAND</span>
           Contact
         </h1>
-        <p class="text-white-50 mb-5 mt-3">
+        <p class="text-white-50 mt-3">
           Hubungi & dapatkan layanan terbaik dari kami
         </p>
         <div class="card-body rounded-pill bg-white py-0 shadow my-4 d-inline-block">

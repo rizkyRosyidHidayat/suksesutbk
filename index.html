@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="./css/banner.css">
   <link rel="stylesheet" href="./css/fitur.css">
   <link rel="stylesheet" href="./css/edukasi.css">
-  <link rel="stylesheet" href="./css/event.css">
+  <link rel="stylesheet" href="./css/fitur/team.css">
   <link rel="stylesheet" href="./css/testimoni.css">
   <link rel="stylesheet" href="./css/daftar.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/market.css">
+  <link rel="stylesheet" href="./css/paket/paket.css">
   <link rel="stylesheet" href="./css/hidden_menu.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>TRYOUT UTBK</title>
@@ -34,10 +34,24 @@
       <header-section :navbar="navbar" @change-visible="changeVisible"></header-section>
       <slide-banner></slide-banner>
       <fitur-section></fitur-section>
-      <market-section></market-section>
+      <!-- <market-section></market-section> -->
+      <div class="team" style="background-size: 30%;">
+        <div class="w-md-80 position-relative text-black-50 text-center">
+          <h1 class="mb-0">
+            <span class="text-warning font-weight-bold">PAKET</span>
+            UTBK
+          </h1>
+          <p class="text-black-50 mt-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Veritatis tempora, veniam nulla sunt impedit <br> numquam eaque 
+            natus recusandae beatae doloremque perspiciatis
+          </p>
+        </div>
+        <paket-paket></paket-paket>
+      </div>
       <edukasi-section></edukasi-section>
       <div class="bg-event">
-        <event-section></event-section>
+        <team-section style="background-image: none;"></team-section>
         <testimoni-section></testimoni-section>
         <video-testimoni></video-testimoni>      
       </div>

@@ -27,3 +27,9 @@ body{ background-color: #F3F7FC;font-family: 'Nunito', sans-serif; }
 .text--blue{
   color: #3d8cff;
 }
+.bg-event{
+  background-image: url('../img/section-3.svg');
+  background-position-y: 150px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

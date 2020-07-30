@@ -13,8 +13,9 @@
 }
 .blog-bg-right{
   position: absolute;
-  max-width: 450px;
+  max-width: 350px;
   right: 0;
+  top: 100px;
   transform: translateX(70%);
   pointer-events: none;
   user-select: none;
