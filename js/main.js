@@ -118,24 +118,24 @@ const tentang = new Swiper('.swiper-container-tentang', {
   }
 })
 const team = new Swiper('.swiper-container-team', {
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   // centeredSlides: true,
-  spaceBetween: 32,
+  // spaceBetween: 16,
   grabCursor: true,
-  loop: true,
+  // loop: true,
   navigation: {
     nextEl: '.btn-nav-right',
     prevEl: '.btn-nav-left',
   },
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 16
-    },
-    500: {
-      slidesPerView: 1,
-    }
-  }
+  // breakpoints: {
+  //   768: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 16
+  //   },
+  //   500: {
+  //     slidesPerView: 1,
+  //   }
+  // }
 })
 const testimoni_fitur = new Swiper('.swiper-container-testimoni-fitur', {
   slidesPerView: 'auto',

@@ -22,12 +22,13 @@ Vue.component('team-section', {
           {{ item }}
         </a>
       </nav>
+    <div>
       <div 
         class="swiper-container-team mt-5 overflow-hidden p-3">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper" style="flex-wrap: nowrap;">
           <div 
             v-for="(item, i) in teams[tabsActive]" :key="i"
-            class="swiper-slide">
+            class="swiper-slide col-12 col-sm-12 col-md-6 col-lg-4 mr-1">
             <div 
               :key="tabsActive"
               class="card border-0 rounded--lg shadow animate-fadeAway">
@@ -43,6 +44,7 @@ Vue.component('team-section', {
           </div>
         </div>        
       </div>
+    </div>
       <div class="d-flex justify-content-center mt-5">
         <div class="navigasi">
           <div class="btn btn-nav-left shadow rounded-pill text-center mr-3 bg-white">
@@ -92,7 +94,14 @@ Vue.component('team-section', {
             desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
           },
         ],
-        'Bank Transfer': [ /*data di isi disini*/ ], 
+        'Bank Transfer': [
+          {
+            img: 'visa.png',
+            title: 'VISA',
+            subtitle: 'Kartu kredit/debit Visa',
+            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
+          },
+        ], 
         'Direct Debit': [/*data di isi disini*/], 
         'e-Wallet': [/*data di isi disini*/], 
         'Over the Counter': [/*data di isi disini*/]
