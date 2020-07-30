@@ -47,7 +47,7 @@ Vue.component('footer-section', {
       <div class="d-block d-sm-flex text-center justify-content-sm-between align-items-center">
         <img src="./img/credit-brands.png" alt="credit" height="30"/>
         <div class="font-weight-bold text-black-50 mt-3 mt-sm-0">
-          &copy; {{ new Date().getFullYear() }} Suksesutbk. All Rights Reserved
+          &copy; {{ new Date().getFullYear() }} PT. EDU INOVASI INDONESIA. All Rights Reserved
         </div>
       </div>
       <div class="footer-bottom"></div>

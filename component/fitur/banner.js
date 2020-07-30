@@ -4,12 +4,10 @@ Vue.component('banner-fitur', {
       <div class="container-lg">
         <div class="row align-items-center">
           <div class="col-12 col-md-6 col-lg-5 text-white text-center text-md-left">
-            <p class="h3 mb-0">Lorem ipsum dolor sit amet</p>
-            <div class="h1 font-weight-bold">Suksesutbk punya banyak fitur bermanfaat</div>
+            <p class="h3 mb-0">#WujudkanImpianmu</p>
+            <div class="h1 font-weight-bold">Platform Aplikasi TryOut UTBK</div>
             <p class="my-4 d-none d-md-block">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Omnis accusantium nesciunt minima tempora provident, 
-              autem quas perspiciatis voluptas inventore ipsum officia accusamus laborum at odit ullam adipisci quidem consectetur sunt.
+              TryOut Ujian Tulis Berbasis Komputer [UTBK] SBMPTN/MANDIRI 2021, dengan regulasi terbaru LTMPT, berbagai fitur & benefit terlengkap.
             </p>
             <a href="#" class="btn btn--primary rounded-pill font-weight-bold btn-lg bg-white text--primary text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">

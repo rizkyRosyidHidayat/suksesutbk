@@ -5,16 +5,14 @@ Vue.component('carousel-section', {
       <div class="row justify-content-between">
         <div class="col-12 col-md-6 text-black-50 z-index-1 mb-5 mb-md-0" style="background-color: #F3F7FC;">
           <h3 class="mb-3">
-            <span class="text-warning font-weight-bold">SUKSESUTBK</span>
+            <span class="text-warning font-weight-bold">EDUBRAND</span>
             <br>
-            Lorem Ipsum
+            PT. EDU INOVASI INDONESIA
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptates in temporibus, necessitatibus earum odit 
-            tenetur sit optio, doloremque beatae totam dolorem quae 
-            aliquid blanditiis perferendis voluptas. 
-            Voluptatum pariatur inventore velos.
+            Perusahaan startup teknologi yang berfokus pada pendidikan. 
+            Edubrand menawarkan platform pembelajaran berbasis teknologi 
+            terkini dengan fitur, analisis & benefit terlengkap
           </p>
           <div class="d-flex justify-content-end">
             <div class="navigasi">
@@ -37,7 +35,7 @@ Vue.component('carousel-section', {
           <div class="swiper-container-tentang">
             <div class="swiper-wrapper position-static">
               <div v-for="(item, i) in img" class="swiper-slide shadow mb-3">
-                <img :src="'./img/'+item" alt="slide">
+                <img :src="'./img/tentang/'+item" alt="slide">
               </div>
             </div>
           </div>
@@ -47,6 +45,6 @@ Vue.component('carousel-section', {
   </section>
   `,
   data: () => ({
-    img: ['ocid.jpg', 'ocid.jpg', 'ocid.jpg', 'ocid.jpg']
+    img: ['gb1_1.png', 'gb1_1.png', 'gb1_1.png', 'gb1_1.png']
   })
 })

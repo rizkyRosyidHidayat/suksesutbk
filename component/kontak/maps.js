@@ -4,11 +4,11 @@ Vue.component('maps-section', {
     <div class="container-lg d-flex justify-content-center">          
       <div class="w-md-80 position-relative text-white text-center">
         <h1 class="mb-0">
-          <span class="text-warning font-weight-bold">SOBATUTBK</span>
-          Kontak
+          <span class="text-warning font-weight-bold">EDUBRAND</span>
+          Contact
         </h1>
         <p class="text-white-50 mb-5 mt-3">
-          Lorem ipsum lorem dolor sit amet ipuf
+          Hubungi & dapatkan layanan terbaik dari kami
         </p>
         <div class="card-body rounded-pill bg-white py-0 shadow my-4 d-inline-block">
           <nav class="nav justify-content-center">
@@ -24,7 +24,7 @@ Vue.component('maps-section', {
           </nav>
         </div>
         <div class="card border-0 rounded--lg shadow-lg overflow-hidden">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.406760622159!2d110.40323681415384!3d-7.746607478946875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a88ae6f4d7%3A0xbf14bc634892c152!2sDigital%20Inovasi%20Bangsa!5e0!3m2!1sen!2sid!4v1595493451763!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15839.121971465092!2d110.4717987!3d-7.035066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe14a6d7d4a0e6915!2sEDUBRAND%20%5B%20PT%20EDU%20INOVASI%20INDONESIA%20%5D!5e0!3m2!1sid!2sid!4v1595941462500!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         <div class="btn-maps text-center">
           <a href="#" class="btn btn--primary bg--primary rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow animate-slide delay-3">

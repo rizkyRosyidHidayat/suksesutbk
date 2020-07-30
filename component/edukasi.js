@@ -10,8 +10,8 @@ Vue.component('edukasi-section', {
           </div>
         </div>
         <div class="col-sm-6 col-md-5">
-          <div class="h2 font-weight-bold text--blue">Lihat Penawaran Terbaik Kami</div>
-          <div class="h2 mb-sm-1 mb-md-3">Dijamin Puas Dengan Kami</div>
+          <div class="h2 font-weight-bold text--blue">Platform TryOut UTBK Terbaik</div>
+          <div class="h2 mb-sm-1 mb-md-3">Dengan Fitur & Fasilitas terlengkap</div>
           <p class="mb-sm-3 mb-md-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             Quis perspiciatis maiores.
@@ -56,11 +56,15 @@ Vue.component('edukasi-section', {
   `,
   data: () => ({
     edukasi: [
-      { title: 'Siswa berprestasi', img: 'icon-edukasi.PNG' },
-      { title: 'Siswa berbakat', img: 'icon-edukasi.PNG' },
-      { title: 'Mendapatkan juara', img: 'icon-edukasi.PNG' },
-      { title: 'Mendapatkan beasiswa', img: 'icon-edukasi.PNG' },
-      { title: 'Disayang orang tua', img: 'icon-edukasi.PNG' },
+      { title: 'Materi Uji Standar LTMPT', img: 'icon-edukasi.PNG' },
+      { title: 'Rekomendasi PTN/Prodi', img: 'icon-edukasi.PNG' },
+      { title: 'Target & Pencapaian Nilai', img: 'icon-edukasi.PNG' },
+      { title: 'Rasionalisasi UTBK 2021', img: 'icon-edukasi.PNG' },
+      { title: 'Review & Pembahasan Soal', img: 'icon-edukasi.PNG' },
+      { title: 'Assessment Report Lengkap', img: 'icon-edukasi.PNG' },
+      { title: 'Statistik Progress TryOut', img: 'icon-edukasi.PNG' },
+      { title: 'Bank Soal Prediktif', img: 'icon-edukasi.PNG' },
+
     ]
   })
 })

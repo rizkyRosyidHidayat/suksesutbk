@@ -23,7 +23,7 @@ Vue.component('form-tentang', {
                     id="email"
                   ></text-field-kontak>
                   <text-field-kontak
-                    label="Nomor Handphone"
+                    label="Nomor HP/WA"
                     id="nomor"
                     class="mt-1 mt-sm-0"
                   ></text-field-kontak>
@@ -36,7 +36,7 @@ Vue.component('form-tentang', {
               <div class="card-footer bg-white border-0 pb-4">
                 <button type="submit" class="btn btn-block btn--primary bg--primary rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow animate-slide delay-3">
                   <div class="d-flex align-items-center">
-                    <div class="flex-grow-1 text-center">simpan pesan</div>
+                    <div class="flex-grow-1 text-center">kirim pesan</div>
                     <span class="icon-btn-primary icon-plus ml-auto bg-white">
                       <svg width="25px" viewBox="0 0 16 16" class="bi bi-plus" fill="#F57045" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
@@ -50,13 +50,11 @@ Vue.component('form-tentang', {
           </div>
           <div class="col-12 col-md-6 order-1 order-md-2 text-black-50">
             <div class="h2 font-weight-bold mb-3">
-              <span class="text--primary">Lihat Penawaran</span> <br> Terbaik Kami
+              <span class="text--primary">Hubungi Kami</span> <br> 
             </div>                  
             <p class="mb-sm-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Eum ullam, esse, provident consequuntur ducimus dicta omnis
-            magnam assumenda, quam consequatur saepe perferendis. 
-            Libero sapiente repellat eum accusantium eos mollitia eaque!
+              Anda dapat mengirimkan komentar, saran, dan pertanyaan 
+              Anda menggunakan informasi di bawah ini.
             </p>
             <div class="row">
               <div
@@ -85,8 +83,10 @@ Vue.component('form-tentang', {
   `,
   data: () => ({
     edukasi: [
-      { title: 'Siswa berbakat', img: 'mail.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
-      { title: 'Mendapatkan juara', img: 'headphone.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
+      { title: 'Alamat', img: 'marker.svg', desc: `Jl. Ketileng Indah Raya, Mutiara Gading A7, Kota Semarang, Jawa Tengah` },
+      { title: 'Email', img: 'mail.svg', desc: `admin@edubrand.id` },
+      { title: 'Telp/HP/WA', img: 'headphone.svg', desc: `085-7272-44-000` },
+      { title: 'Instagram', img: 'play.svg', desc: `@suksesutbk` },
     ]
   })
 })

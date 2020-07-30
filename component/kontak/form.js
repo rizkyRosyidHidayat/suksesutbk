@@ -10,7 +10,7 @@ Vue.component('form-kontak', {
           <div class="col-12 col-md-6 order-2 order-md-1 mt-5 mt-md-0">
             <div class="card border-0 rounded--lg shadow overflow-hidden">
               <div class="card-header h5 text--primary font-weight-bold text-center border-0 bg-white">
-                HUBUNGI KAMI
+                Contact Form
               </div>
               <div class="card-body">
                 <text-field-kontak
@@ -23,7 +23,7 @@ Vue.component('form-kontak', {
                     id="email"
                   ></text-field-kontak>
                   <text-field-kontak
-                    label="Nomor Handphone"
+                    label="Nomor HP/WA"
                     id="nomor"
                     class="mt-1 mt-sm-0"
                   ></text-field-kontak>
@@ -36,7 +36,7 @@ Vue.component('form-kontak', {
               <div class="card-footer bg-white border-0 pb-4">
                 <button type="submit" class="btn btn-block btn--primary bg--primary rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow animate-slide delay-3">
                   <div class="d-flex align-items-center">
-                    <div class="flex-grow-1 text-center">simpan pesan</div>
+                    <div class="flex-grow-1 text-center">kirim pesan</div>
                     <span class="icon-btn-primary icon-plus ml-auto bg-white">
                       <svg width="25px" viewBox="0 0 16 16" class="bi bi-plus" fill="#F57045" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
@@ -49,10 +49,9 @@ Vue.component('form-kontak', {
             </div>
           </div>
           <div class="col-12 col-md-6 order-1 order-md-2">
-            <div class="h2 font-weight-bold text--primary">Lihat Penawaran Terbaik Kami</div>                  
+            <div class="h2 font-weight-bold text--primary">Hubungi Kami</div>                  
             <p class="mb-sm-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              Quis perspiciatis maiores.
+              Anda dapat mengirimkan komentar, saran, dan pertanyaan Anda menggunakan informasi di bawah ini.
             </p>
             <div class="row">
               <div
@@ -81,10 +80,10 @@ Vue.component('form-kontak', {
   `,
   data: () => ({
     edukasi: [
-      { title: 'Siswa berprestasi', img: 'marker.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
-      { title: 'Siswa berbakat', img: 'mail.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
-      { title: 'Mendapatkan juara', img: 'headphone.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
-      { title: 'Mendapatkan beasiswa', img: 'play.svg', desc: `Lorem ipsum dolor sit amet dio teiro` },
+      { title: 'Alamat', img: 'marker.svg', desc: `Jl. Ketileng Indah Raya, Mutiara Gading A7, Kota Semarang, Jawa Tengah` },
+      { title: 'Email', img: 'mail.svg', desc: `admin@edubrand.id` },
+      { title: 'Telp/HP/WA', img: 'headphone.svg', desc: `085-7272-44-000` },
+      { title: 'Instagram', img: 'play.svg', desc: `@suksesutbk` },
     ]
   })
 })

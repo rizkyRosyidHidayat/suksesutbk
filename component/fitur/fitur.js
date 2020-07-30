@@ -4,13 +4,12 @@ Vue.component('fitur-fitur', {
     <div class="container-lg">
       <div class="text-center">
         <h2>
-          <span class="font-weight-bold text--purple">Lorem Ipsum Dolor Sit Amet</span><br>
-          <span class="text-black-50">Uzman Ellerde</span>
+          <span class="font-weight-bold text--purple">Kenapa Platform UTBK</span><br>
+          <span class="text-black-50">EDUBRAND SYSTEM</span>
         </h2>
         <p class="text-black-50 mt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolores dicta cupiditate minus beatae libero nostrum <br>
-          recusandae, eos facere repellat omnis.
+          Aplikasi yang dirancang menggunakan teknologi terkini, dengan fitur yang nyaman dan dijamin meningkatkan <br>
+          Peluang diterima di PTN Favorit
         </p>
       </div>
       <div class="row mt-5">
@@ -30,7 +29,7 @@ Vue.component('fitur-fitur', {
               </p>
               <a href="#" class="btn btn--primary rounded-pill my-4 font-weight-bold btn-lg text-uppercase pr-2">
                 <div class="d-flex align-items-center">
-                  <div class="mr-3">daftar sekarang</div>
+                  <div class="mr-3">daftar</div>
                   <span class="icon-btn-primary shadow flex-shrink-0">
                     <svg class="bi bi-arrow-right" width="25" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
@@ -50,32 +49,23 @@ Vue.component('fitur-fitur', {
     fitur: [
       {
         img: 'horse.PNG',
-        title: 'Full Online',
-        subtitle: 'Online Selalu',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Quasi iusto atque nobis exercitationem dolore provident 
-        illo, unde repudiandae nemo aut modi, minus amet adipisci 
-        animi incidunt error ea tempora iste!`,
+        title: 'REGULASI UTBK',
+        subtitle: 'Aturan UTBK 2021 terupdate',
+        desc: `Komposisi soal, kisi-kisi serta materi uji UTBK yang hampir berubah setiap tahun, mengharuskan siswa menyiapkan sejak dini & mengetahui perubahan-perubahan regulasi secara update`,
         link: ''
       },
       {
         img: 'abjad.PNG',
-        title: 'Full Online',
-        subtitle: 'Online Selalu',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Quasi iusto atque nobis exercitationem dolore provident 
-        illo, unde repudiandae nemo aut modi, minus amet adipisci 
-        animi incidunt error ea tempora iste!`,
+        title: 'MATERI UJI',
+        subtitle: 'Materi Uji Standar',
+        desc: `Materi yang di ujikan dalam platform sukses utbk Edubrand, sesuai dengan standar UTBK LTMPT yang terbaru`,
         link: ''
       },
       {
         img: 'lock.PNG',
-        title: 'Full Online',
-        subtitle: 'Online Selalu',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Quasi iusto atque nobis exercitationem dolore provident 
-        illo, unde repudiandae nemo aut modi, minus amet adipisci 
-        animi incidunt error ea tempora iste!`,
+        title: 'SISTEM SKORING',
+        subtitle: 'Sistem Penilaian IRT',
+        desc: `Penilaian menggunakan sistem IRT (Item Response Theory) mengikuti sistem penilaian LTMPT dengan karakteristik, tingkat kesulitan & skor setiap butir yang berbeda.`,
         link: ''
       },
     ]

@@ -4,13 +4,12 @@ Vue.component('team-section', {
     <div class="container-lg">
       <div class="text-center">
         <h2>
-          <span class="font-weight-bold text--green">Lorem</span>
-          <span class="text-black-50">Ellerde</span>
+          <span class="font-weight-bold text--green">Sistem</span>
+          <span class="text-black-50">Pembayaran</span>
         </h2>
         <p class="text-black-50 mt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolores dicta<br>
-          recusandae, eos facere repellat omnis.
+          Berbagai macam pilihan sistem pembayaran, 
+          akan mempermudah siswa untuk mengikuti TryOut UTBK
         </p>
       </div>
       <nav class="nav justify-content-center">
@@ -27,13 +26,13 @@ Vue.component('team-section', {
         class="swiper-container-team mt-5 overflow-hidden p-3">
         <div class="swiper-wrapper">
           <div 
-            v-for="(item, i) in teams" :key="i"
+            v-for="(item, i) in teams[tabsActive]" :key="i"
             class="swiper-slide">
             <div 
               :key="tabsActive"
               class="card border-0 rounded--lg shadow animate-fadeAway">
               <div class="card-body text-center text-black-50">
-                <img :src="'./img/'+item.img" alt="team" class="rounded-circle mb-3" width="90"><br>
+                <img :src="'./img/fitur/'+item.img" alt="team" class="rounded-circle mb-3" width="90"><br>
                 <b>{{ item.title }}</b>
                 <div>{{ item.subtitle }}</div>
                 <p class="mt-4">
@@ -64,37 +63,39 @@ Vue.component('team-section', {
   </section>
   `,
   data: () => ({
-    tabs: ['Active', 'Kontak', 'Fitur'],
-    tabsActive: 'Active',
-    teams: [
-      {
-        img: 'ocid.jpg',
-        title: 'Nama',
-        subtitle: 'Lorem ipsum dolor',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolores dicta recusandae, eos facere repellat omnis.`
-      },
-      {
-        img: 'ocid.jpg',
-        title: 'Nama',
-        subtitle: 'Lorem ipsum dolor',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolores dicta recusandae, eos facere repellat omnis.`
-      },
-      {
-        img: 'ocid.jpg',
-        title: 'Nama',
-        subtitle: 'Lorem ipsum dolor',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolores dicta recusandae, eos facere repellat omnis.`
-      },
-      {
-        img: 'ocid.jpg',
-        title: 'Nama',
-        subtitle: 'Lorem ipsum dolor',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolores dicta recusandae, eos facere repellat omnis.`
-      },
-    ]
+    tabs: ['Card Payment', 'Bank Transfer', 'Direct Debit', 'e-Wallet', 'Over the Counter'],
+    tabsActive: 'Card Payment',
+    teams: {
+        "Card Payment": [
+          {
+            img: 'visa.png',
+            title: 'VISA',
+            subtitle: 'Kartu kredit/debit Visa',
+            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
+          },
+          {
+            img: 'mc.png',
+            title: 'MASTERCARD',
+            subtitle: 'Kartu kredit/debit MasterCard',
+            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo MasterCard`
+          },
+          {
+            img: 'jbx.png',
+            title: 'JBX',
+            subtitle: 'Kartu kredit/debit JBX',
+            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo JBX`
+          },
+          {
+            img: 'amex.png',
+            title: 'AMEX',
+            subtitle: 'Kartu kredit/debit AMEX',
+            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
+          },
+        ],
+        'Bank Transfer': [ /*data di isi disini*/ ], 
+        'Direct Debit': [/*data di isi disini*/], 
+        'e-Wallet': [/*data di isi disini*/], 
+        'Over the Counter': [/*data di isi disini*/]
+      }    
   })
 })

@@ -25,23 +25,12 @@ Vue.component('tabs-section', {
   `,
   data: () => ({
     tabs: [
-      { text: 'Lorem ipsum', img: 'calendar.PNG' },
-      { text: 'Lorem ipsum', img: 'calendar.PNG' },
-      { text: 'Lorem ipsum', img: 'calendar.PNG' }
+      { text: 'Full Online', img: 'calendar.PNG' },
+      { text: 'Semi Online', img: 'calendar.PNG' },
     ],
     desc: [
-      `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Eum ullam, esse, provident consequuntur ducimus dicta omnis
-      magnam assumenda, quam consequatur saepe perferendis. 
-      Libero sapiente repellat eum accusantium eos mollitia eaque!`,
-      `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Eum ullam, esse, provident consequuntur ducimus dicta omnis
-      magnam assumenda, quam consequatur saepe perferendis. 
-      Libero sapiente repellat eum accusantium eos mollitia eaque!`,
-      `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Eum ullam, esse, provident consequuntur ducimus dicta omnis
-      magnam assumenda, quam consequatur saepe perferendis. 
-      Libero sapiente repellat eum accusantium eos mollitia eaque!`
+      `Layanan Edubrand berbasis Full Online: TryOut AKM, TryOut UTBK, Peminatan Peserta Didik`,
+      `Layanan Edubrand berbasis Semi Online Online: TryOut AKM, TryOut UTBK, Peminatan Peserta Didik`,
     ],
     tabsIndex: 0
   })

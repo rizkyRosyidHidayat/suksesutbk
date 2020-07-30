@@ -10,25 +10,24 @@ Vue.component('daftar-section', {
           <form class="form-bg row justify-content-between align-items-center p-5">
             <div class="text-white col-sm-12 col-md-4 mb-5 mb-sm-0">
               <h2>
-                Daftar <span class="text-warning font-weight-bold">Sekarang</span>
+                We'll <span class="text-warning font-weight-bold">Call You</span>
               </h2>
               <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Impedit maiores ipsa inventore facere praesentium ea quisquam.
+                Jika Anda ingin mendapatkan informasi tentang program & layanan kami, masukkan informasi kontak Anda.
               </div>
             </div>
             <div class="col-sm-12 col-md-8 d-block d-sm-flex mt-5 mt-md-0">
               <text-field
-                id="nohp"
-                label="Nomor Handphone"
-              ></text-field>
-              <text-field
                 id="nama"
                 label="Nama Lengkap"
               ></text-field>
+              <text-field
+                id="nohp"
+                label="Nomor HP/WhatsApp"
+              ></text-field>
               <button class="btn btn--primary rounded-pill bg-white text--primary text-uppercase ml-0 ml-sm-5 pr-2 shadow">
                 <div class="d-flex align-items-center">
-                  <div class="mr-3 font-weight-bold">daftar</div>
+                  <div class="mr-3 font-weight-bold">kirim</div>
                   <span class="icon-btn-primary">
                     <svg class="bi bi-arrow-right" width="25" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>

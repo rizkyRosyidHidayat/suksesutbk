@@ -5,8 +5,8 @@ Vue.component('media-section', {
       <div class="row text-black-50 align-items-center">
         <div class="col-12 col-md-6 mb-5 mb-md-0">
           <h2 class="text-center text-md-left">
-            <span class="font-weight-bold text--blue">Online Özel Derslerde</span><br>
-            Neler Sunuyoruz
+            <span class="font-weight-bold text--blue">PLATFORM UTBK EDUBRAND</span><br>
+            Fitur & Fasilitas terlengkap
           </h2>
         </div>
         <div 
@@ -32,7 +32,7 @@ Vue.component('media-section', {
     media: [
       {
         img: 'icon-edukasi.PNG',
-        title: 'Media Heading',
+        title: 'Materi Uji Standar LTMPT',
         desc: `
         Cras sit amet nibh libero, in gravida nulla. 
         Nulla vel metus scelerisque ante sollicitudin. 
@@ -43,7 +43,7 @@ Vue.component('media-section', {
       },
       {
         img: 'icon-edukasi.PNG',
-        title: 'Media Heading',
+        title: 'Rekomendasi PTN/Prodi',
         desc: `
         Cras sit amet nibh libero, in gravida nulla. 
         Nulla vel metus scelerisque ante sollicitudin. 
@@ -54,7 +54,7 @@ Vue.component('media-section', {
       },
       {
         img: 'icon-edukasi.PNG',
-        title: 'Media Heading',
+        title: 'Target & Pencapaian Nilai',
         desc: `
         Cras sit amet nibh libero, in gravida nulla. 
         Nulla vel metus scelerisque ante sollicitudin. 
@@ -65,7 +65,7 @@ Vue.component('media-section', {
       },
       {
         img: 'icon-edukasi.PNG',
-        title: 'Media Heading',
+        title: 'Rasionalisasi UTBK 2021',
         desc: `
         Cras sit amet nibh libero, in gravida nulla. 
         Nulla vel metus scelerisque ante sollicitudin. 
@@ -76,7 +76,51 @@ Vue.component('media-section', {
       },
       {
         img: 'icon-edukasi.PNG',
-        title: 'Media Heading',
+        title: 'Review & Pembahasan Soal',
+        desc: `
+        Cras sit amet nibh libero, in gravida nulla. 
+        Nulla vel metus scelerisque ante sollicitudin. 
+        Cras purus odio, vestibulum in vulputate at, 
+        tempus viverra turpis. Fusce condimentum 
+        nunc ac nisi vulputate fringilla.
+        `
+      },
+      {
+        img: 'icon-edukasi.PNG',
+        title: 'Assessment Report Lengkap',
+        desc: `
+        Cras sit amet nibh libero, in gravida nulla. 
+        Nulla vel metus scelerisque ante sollicitudin. 
+        Cras purus odio, vestibulum in vulputate at, 
+        tempus viverra turpis. Fusce condimentum 
+        nunc ac nisi vulputate fringilla.
+        `
+      },
+      {
+        img: 'icon-edukasi.PNG',
+        title: 'Statistik Progress TryOut',
+        desc: `
+        Cras sit amet nibh libero, in gravida nulla. 
+        Nulla vel metus scelerisque ante sollicitudin. 
+        Cras purus odio, vestibulum in vulputate at, 
+        tempus viverra turpis. Fusce condimentum 
+        nunc ac nisi vulputate fringilla.
+        `
+      },
+      {
+        img: 'icon-edukasi.PNG',
+        title: 'Bank Soal Prediktif',
+        desc: `
+        Cras sit amet nibh libero, in gravida nulla. 
+        Nulla vel metus scelerisque ante sollicitudin. 
+        Cras purus odio, vestibulum in vulputate at, 
+        tempus viverra turpis. Fusce condimentum 
+        nunc ac nisi vulputate fringilla.
+        `
+      },
+      {
+        img: 'icon-edukasi.PNG',
+        title: 'Sistem Penilaian IRT',
         desc: `
         Cras sit amet nibh libero, in gravida nulla. 
         Nulla vel metus scelerisque ante sollicitudin. 

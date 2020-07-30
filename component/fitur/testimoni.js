@@ -4,11 +4,8 @@ Vue.component('testimoni-fitur', {
     <div class="d-flex justify-content-center">
       <div class="text-center testimoni-desc">
         <h2 class="font-weight-bold text-danger">
-          Tertarik Mendaftar ?
+          Mau kuliah di PTN Favorit ?
         </h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        </p>
       </div>
     </div>
     <div class="container-fluid mt-4 px-0 overflow-hidden">
