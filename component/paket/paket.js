@@ -14,12 +14,13 @@ Vue.component('paket-paket', {
                 </h5>
               </div>
               <div class="card-body">
-                <div class="d-flex align-items-center">
+                <div 
+                  v-for="(list, i) in item.list" :key="i"
+                  class="d-flex align-items-center">
                   <svg :fill="item.color" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="20px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                     <path d="M10 17l-5-5l1.41-1.42L10 14.17l7.59-7.59L19 8m0-5H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2z"/>
                   </svg>
-                  <div 
-                    v-for="(list, i) in item.list" :key="i"
+                  <div                     
                     class="ml-2 font-weight-bold">{{ list }}</div>
                 </div>
               </div>
@@ -45,26 +46,47 @@ Vue.component('paket-paket', {
   data: () => ({
     paket: [
       {
-        title: 'GOLD',
+        title: 'SUKSES-1',
         price: '50.000',
         list: [
-          'Lorem ipsum dolor sit amet'
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
         ],
         color: '#ffca2a'
       },
       {
-        title: 'GOLD',
-        price: '50.000',
+        title: 'SUKSES-2',
+        price: '90.000',
         list: [
-          'Lorem ipsum dolor sit amet'
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
         ],
         color: '#3d8cff'
       },
       {
-        title: 'GOLD',
-        price: '50.000',
+        title: 'SUKSES-3',
+        price: '130.000',
         list: [
-          'Lorem ipsum dolor sit amet'
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
+          'Lorem ipsum dolor sit amet',
         ],
         color: '#ff6845'
       }

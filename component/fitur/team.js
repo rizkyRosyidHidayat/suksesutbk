@@ -68,43 +68,155 @@ Vue.component('team-section', {
     tabs: ['Card Payment', 'Bank Transfer', 'Direct Debit', 'e-Wallet', 'Over the Counter'],
     tabsActive: 'Card Payment',
     teams: {
-        "Card Payment": [
-          {
-            img: 'visa.png',
-            title: 'VISA',
-            subtitle: 'Kartu kredit/debit Visa',
-            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
-          },
-          {
-            img: 'mc.png',
-            title: 'MASTERCARD',
-            subtitle: 'Kartu kredit/debit MasterCard',
-            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo MasterCard`
-          },
-          {
-            img: 'jbx.png',
-            title: 'JBX',
-            subtitle: 'Kartu kredit/debit JBX',
-            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo JBX`
-          },
-          {
-            img: 'amex.png',
-            title: 'AMEX',
-            subtitle: 'Kartu kredit/debit AMEX',
-            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
-          },
-        ],
-        'Bank Transfer': [
-          {
-            img: 'visa.png',
-            title: 'VISA',
-            subtitle: 'Kartu kredit/debit Visa',
-            desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
-          },
-        ], 
-        'Direct Debit': [/*data di isi disini*/], 
-        'e-Wallet': [/*data di isi disini*/], 
-        'Over the Counter': [/*data di isi disini*/]
-      }    
+      "Card Payment": [
+        {
+          img: 'visa.png',
+          title: 'VISA',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
+        },
+        {
+          img: 'mc.png',
+          title: 'MASTERCARD',
+          subtitle: 'Kartu kredit/debit MasterCard',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo MasterCard`
+        },
+        {
+          img: 'jbx.png',
+          title: 'JBX',
+          subtitle: 'Kartu kredit/debit JBX',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo JBX`
+        },
+        {
+          img: 'amex.png',
+          title: 'AMEX',
+          subtitle: 'Kartu kredit/debit AMEX',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
+        },
+      ],
+      'Bank Transfer': [
+        {
+          img: 'va.png',
+          title: 'VIRTUAL ACCOUNT',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer dengan Virtual Account semua Bank di Indonesia`
+        },
+        {
+          img: 'bca.png',
+          title: 'BCA',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking BCA`
+        },
+        {
+          img: 'bni.png',
+          title: 'BNI',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking BNI`
+        },
+        {
+          img: 'mandiri.png',
+          title: 'MANDIRI',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking Mandiri`
+        },
+        {
+          img: 'bersama.png',
+          title: 'ATM BERSAMA',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking ATM Bersama`
+        },
+        {
+          img: 'permata.png',
+          title: 'PERMATA BANK',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking Permata Bank`
+        },
+      ], 
+      'Direct Debit': [
+        {
+          img: 'bcaklik.png',
+          title: 'BCA KLIK PAY',
+          subtitle: '',
+          desc: `Pembayaran melalui fasilitas Internet Banking BCA Klik Pay.`
+        },
+        {
+          img: 'mandiriklik.png',
+          title: 'MANDIRI CLICKPAY',
+          subtitle: '',
+          desc: `Pembayaran melalui fasilitas Internet Banking Mandiri Clickpay.`
+        },
+        {
+          img: 'briklik.png',
+          title: 'E-PAY BRI',
+          subtitle: '',
+          desc: `Pembayaran melalui fasilitas Internet Banking E-Pay BRI.`
+        },
+        {
+          img: 'cimbklik.png',
+          title: 'CIMB CLICKS',
+          subtitle: '',
+          desc: `Pembayaran melalui fasilitas Internet Banking Cimb Clicks.`
+        },
+        {
+          img: 'briklik.png',
+          title: 'DANAMON ONLINE BANKING',
+          subtitle: 'Kartu kredit/debit Visa',
+          desc: `Pembayaran melalui fasilitas Internet Banking Damanon Online Banking.`
+        },
+      ], 
+      'e-Wallet': [
+        {
+          img: 'gopay.png',
+          title: 'GOPAY',
+          subtitle: '',
+          desc: `Pembayaran dengan sistem e-Wallet dari akun/nomor/PIN ponsel pelanggan`
+        },
+        {
+          img: 'tcash.png',
+          title: 'T-CASH',
+          subtitle: '',
+          desc: `Pembayaran dengan sistem e-Wallet dari akun/nomor/PIN ponsel pelanggan`
+        },
+        {
+          img: 'line.png',
+          title: 'LINE PAY E-CASH',
+          subtitle: '',
+          desc: `Pembayaran dengan sistem e-Wallet dari akun/nomor/PIN ponsel pelanggan`
+        },
+
+        {
+          img: 'emandiri.png',
+          title: 'MANDIRI E-CASH',
+          subtitle: '',
+          desc: `Pembayaran dengan sistem e-Wallet dari akun/nomor/PIN ponsel pelanggan`
+        },
+      ], 
+      'Over the Counter': [
+        {
+          img: 'indomaret.png',
+          title: 'INDOMARET',
+          subtitle: '',
+          desc: `Pembayaran melalui Toserba dan Kios yang tersebar di seluruh Indonesia`
+        },
+        {
+          img: 'alfamart.png',
+          title: 'ALFAMART',
+          subtitle: '',
+          desc: `Pembayaran melalui Toserba dan Kios yang tersebar di seluruh Indonesia`
+        },
+        {
+          img: 'alfamidi.png',
+          title: 'ALFAMIDI',
+          subtitle: '',
+          desc: `Pembayaran melalui Toserba dan Kios yang tersebar di seluruh Indonesia`
+        },
+        {
+          img: 'dan.png',
+          title: 'DAN+DAN',
+          subtitle: '',
+          desc: `Pembayaran melalui Toserba dan Kios yang tersebar di seluruh Indonesia`
+        },
+      ]
+    }     
   })
 })

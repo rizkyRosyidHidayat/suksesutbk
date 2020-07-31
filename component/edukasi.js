@@ -33,7 +33,7 @@ Vue.component('edukasi-section', {
           <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center mt-sm-3 mt-md-5">
             <a href="#" class="btn btn--blue rounded-pill font-weight-bold btn-lg text-white text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
-                <div class="mr-3">gabung sekarang</div>
+                <div class="mr-3">coba tryout gratis</div>
                 <span class="icon-btn-primary bg-white">
                   <svg class="bi bi-arrow-right" width="25" viewBox="0 0 16 16" fill="#428AF7" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
@@ -42,7 +42,7 @@ Vue.component('edukasi-section', {
                 </span>
               </div>
             </a>
-            <a href="#" class="ml-0 ml-md-5">
+            <a href="#" class="ml-0 ml-md-5 d-none">
               <button
                 class="btn btn--text font-weight-bold text--blue p-0 mt-5 mt-md-0">
                 Hubungi Kami

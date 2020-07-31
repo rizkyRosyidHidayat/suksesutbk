@@ -4,13 +4,11 @@ Vue.component('desc-paket', {
     <div class="container-lg d-flex justify-content-center">          
       <div class="w-md-80 position-relative text-white text-center">
         <h1 class="mb-0">
-          <span class="text-warning font-weight-bold">PAKET</span>
-          UTBK
+          <span class="text-warning font-weight-bold">PAKET TRYOUT</span>
+          UTBK 2021
         </h1>
         <p class="text-white mt-3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Veritatis tempora, veniam nulla sunt impedit <br> numquam eaque 
-          natus recusandae beatae doloremque perspiciatis
+          Tersedia Paket TryOut UTBK 2021, dengan fitur & fasilitas lengkap. <br> Persiapkan & pastikan ikut dari sekarang.
         </p>
         <div class="card-body rounded-pill bg-white py-0 shadow my-4 d-inline-block">
           <nav class="nav justify-content-center">
