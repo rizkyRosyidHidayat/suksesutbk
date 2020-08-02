@@ -74,6 +74,12 @@
 .video .icon-footer svg{
   width: 50px;
 }
+.modal-custom{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-custom.active{
+  display: block;
+}
 
 @media screen and (max-width: 768px){
   .testimoni .swiper-slide{

@@ -9,7 +9,7 @@ Vue.component('slide-banner', {
             <div class="h1 font-weight-bold text-capitalize mb-5 animate-slide delay-2">
               {{ slide.desc }}
             </div>
-            <a :href="slide.link" class="btn btn--primary rounded-pill font-weight-bold btn-lg bg-white text--primary text-uppercase pr-2 shadow animate-slide delay-3">
+            <a :href="slide.link" target="_blank" class="btn btn--primary rounded-pill font-weight-bold btn-lg bg-white text--primary text-uppercase pr-2 shadow animate-slide delay-3">
               <div class="d-flex align-items-center">
                 <div class="mr-3">daftar sekarang</div>
                 <span class="icon-btn-primary">
@@ -41,16 +41,16 @@ Vue.component('slide-banner', {
     slides: [
       { title: '#WujudkanImpianmu', desc: `
         Nilai UTBK Terbaik, Kuliah Di PTN Dan Prodi Favorit
-      `, link: '#', img: 'image.webp' },
+      `, link: 'https://suksesutbk.com/peserta/signup', img: 'image.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '#', img: 'image1.webp' },
+      `, link: 'https://suksesutbk.com/peserta/signup', img: 'image1.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '#', img: 'image2.webp' },
+      `, link: 'https://suksesutbk.com/peserta/signup', img: 'image2.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '#', img: 'image3.webp' }
+      `, link: 'https://suksesutbk.com/peserta/signup', img: 'image3.webp' }
     ],
     slidesIndex: 0
   }),

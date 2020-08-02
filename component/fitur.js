@@ -22,7 +22,7 @@ Vue.component('fitur-section', {
             {{ fitur[fiturIndex].desc }}
           </div>
           <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center animate-slide delay-3 mb-3">
-            <a href="#" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
+            <a href="https://suksesutbk.com/peserta/signup" target="_blank" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
                 <span class="icon-btn-primary">

@@ -1,3 +1,5 @@
+import './modal.js'
+
 Vue.component('video-testimoni', {
   template: `
   <div class="container-fluid video px-0">
@@ -10,7 +12,10 @@ Vue.component('video-testimoni', {
             <div 
               :style="{'background-image': item.img}"
               class="card shadow-lg border-0 rounded--lg">
-              <a href="#" class="icon-footer">
+              <a 
+                href="javascript:void(0)" 
+                class="icon-footer"
+                @click="visible=true;linkShow=item.link">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                   <path d="M8 5.14v14l11-7l-11-7z"/>
                 </svg>
@@ -43,10 +48,14 @@ Vue.component('video-testimoni', {
       </div>
       <div class="swiper-pagination-video text-center"></div>
     </div>
+
+    <modal-video :link="linkShow" :visible="visible" @hidden="hidden"></modal-video>
   </div>
   `,
   data: () => ({
     iconColor: '#7F7F7F',
+    linkShow: '',
+    visible: false,
     video: [
       {
         video: '',
@@ -55,7 +64,7 @@ Vue.component('video-testimoni', {
         desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
         eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: ''
+        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
       },
       {
         video: '',
@@ -64,7 +73,7 @@ Vue.component('video-testimoni', {
         desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
         eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: ''
+        link: 'https://www.youtube.com/embed/QHsBYXrHrfM'
       },
       {
         video: '',
@@ -73,7 +82,7 @@ Vue.component('video-testimoni', {
         desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
         eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: ''
+        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
       },
       {
         video: '',
@@ -82,7 +91,7 @@ Vue.component('video-testimoni', {
         desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
         eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: ''
+        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
       },
       {
         video: '',
@@ -91,8 +100,13 @@ Vue.component('video-testimoni', {
         desc: `
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
         eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: ''
+        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
       },
     ]
-  })
+  }),
+  methods: {
+    hidden(val) {
+      this.visible = val
+    }
+  }
 })

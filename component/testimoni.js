@@ -4,12 +4,10 @@ Vue.component('testimoni-section', {
     <div class="d-flex justify-content-center">
       <div class="text-center testimoni-desc">
         <h2>
-          Tertarik <span class="font-weight-bold text--green">Mendaftar ?</span>
+          Pengen Kuliah di <span class="font-weight-bold text--green">PTN Favorit?</span>
         </h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Non placeat animi illum? Recusandae aperiam exercitationem 
-          laudantium unde ipsam in sit nulla, reprehenderit rerum.
+          Wujudkan impianmu kuliah di PTN Favorit, dengan capaian nilai UTBK terbaik. 
         </p>
         <a href="#">
           <button
@@ -50,38 +48,63 @@ Vue.component('testimoni-section', {
     iconColor: '#7F7F7F',
     testimoni: [
       {
-        title: 'Rizky Rosyid H',
+        title: 'M.RENDY KURNIAWAN',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Brand Campus System, dengan analisis lengkap memberikan gambaran utuh pilihan program studi yang saya rencanakan.
         `
       },
       {
-        title: 'Rizky Rosyid H',
+        title: 'ANNAFI FIRDAUS SAFITRI',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Edubrand sangat membantu saya masuk ke perguruan tinggi. Di Edubrand saya diarahkan agar bisa lolos di PTN Favorit dengan meningkatkan nilai di setiap semesternya. 
         `
       },
       {
-        title: 'Rizky Rosyid H',
+        title: 'AIDA RAHMA',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Platform Sukses UTBK Edubrand soal-soal TryOutnya prediktif. Nilai UTBK tinggi, bukan hanya mimpi
         `
       },
       {
-        title: 'Rizky Rosyid H',
+        title: 'ALFATIKA ISTIQOMAH',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Komposisi soal TryOut Sukses UTBK Edubrand, mirip dengan UTBK yang sesungguhnya. Trima kasih Edubrand!!
         `
       },
       {
-        title: 'Rizky Rosyid H',
+        title: 'SEKAR ARUM KUSUMA D',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Edubrand dengan Brand Campus Systemnya, mengantarkan saya lolos di PTN Favorit
+        `
+      },
+      {
+        title: 'SARIFATUL FATIMAH',
+        desc: `
+        Selama di Edubrand, saya diberikan pemahaman tentang prospek Program Studi dan PTN-PTN Favorit.
+        `
+      },
+      {
+        title: 'NENENG NUR AMELIA',
+        desc: `
+        Rekomendasi pilihan PTN dan Program Studi,salah satu fitur Brand Campus System yang sangat saya sukai.
+        `
+      },
+      {
+        title: 'RIZKA FADILLA',
+        desc: `
+        Terima kasih Edubrand, yang sudah membantu saya memilih Program Studi yang saya idamkan.
+        `
+      },
+      {
+        title: 'DWI LAILATUL K',
+        desc: `
+        Ayo kita siapkan sejak sekarang, untuk UTBK 2021.
+        `
+      },
+      {
+        title: 'NOOR YULITA',
+        desc: `
+        Kisi-kisi soal yang prediktif, membuat saya yakin dengan persaingan masuk ke PTN Favorit.
         `
       },
     ]

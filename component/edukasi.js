@@ -42,7 +42,7 @@ Vue.component('edukasi-section', {
                 </span>
               </div>
             </a>
-            <a href="#" class="ml-0 ml-md-5 d-none">
+            <a href="https://suksesutbk.com/peserta/signup" target="_blank" class="ml-0 ml-md-5 d-none">
               <button
                 class="btn btn--text font-weight-bold text--blue p-0 mt-5 mt-md-0">
                 Hubungi Kami

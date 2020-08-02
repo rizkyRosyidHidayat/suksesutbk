@@ -16,7 +16,8 @@ Vue.component('text-area', {
   }),
   methods: {
     handleClickOutside(evt) {
-      if (!this.$el.contains(evt.target)) {
+      const value = document.querySelector('#'+this.id).value
+      if (!this.$el.contains(evt.target) && value === '') {
         this.focus = false;
       }
     }
