@@ -49,43 +49,38 @@ Vue.component('testimoni-fitur', {
   data: () => ({
     testimoni: [
       {
-        title: 'Rizky Rosyid H',
-        subtitle: 'Subtitle',
+        title: 'M.RENDY KURNIAWAN',
+        subtitle: '',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Brand Campus System, dengan analisis lengkap memberikan gambaran utuh pilihan program studi yang saya rencanakan.
         `
       },
       {
-        title: 'Rizky Rosyid H',
-        subtitle: 'Subtitle',
+        title: 'ANNAFI FIRDAUS SAFITRI',
+        subtitle: '',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Edubrand sangat membantu saya masuk ke perguruan tinggi. Di Edubrand saya diarahkan agar bisa lolos di PTN Favorit.
         `
       },
       {
-        title: 'Rizky Rosyid H',
-        subtitle: 'Subtitle',
+        title: 'AIDA RAHMA',
+        subtitle: '',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Platform Sukses UTBK Edubrand soal-soal TryOutnya prediktif. Nilai UTBK tinggi, bukan hanya mimpi.
         `
       },
       {
-        title: 'Rizky Rosyid H',
-        subtitle: 'Subtitle',
+        title: 'ALFATIKA ISTIQOMAH',
+        subtitle: '',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Komposisi soal TryOut Sukses UTBK Edubrand, mirip dengan UTBK yang sesungguhnya. Trima kasih Edubrand!!.
         `
       },
       {
-        title: 'Rizky Rosyid H',
-        subtitle: 'Subtitle',
+        title: 'SARIFATUL FATIMAH',
+        subtitle: '',
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.
+        Selama di Edubrand, saya diberikan pemahaman tentang prospek Program Studi dan PTN-PTN Favorit.
         `
       },
     ]

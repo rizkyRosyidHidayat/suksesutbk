@@ -19,7 +19,7 @@ Vue.component('desc-paket', {
               </span>
             </a>
             <a class="nav-link text-black-50 font-weight-bold px-0" href="paket.html">
-              Paket
+              Package
             </a>
           </nav>
         </div>

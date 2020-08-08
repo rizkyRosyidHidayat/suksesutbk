@@ -29,7 +29,7 @@ Vue.component('video-testimoni', {
             <div class="desc-testimoni">
               {{ item.desc }}
             </div>
-            <a href="#">
+            <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank">
               <button                
                 @mouseover="iconColor = '#F57045'"
                 @mouseleave="iconColor = '#7F7F7F'"
@@ -59,49 +59,54 @@ Vue.component('video-testimoni', {
     video: [
       {
         video: '',
-        img: `url(./img/ocid.jpg)`,
-        title: `Lorem ipsum dolor sit, amet consectetur.`,
+        img: `url(./img/vid-1.JPG)`,
+        title: `Protokol Covid19 untuk UTBK 2020`,
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
+        UTBK 2020 di tengah wabah pandemi Covid19, dilaksanakan dengan protokol khusus`,
+        link: 'https://www.youtube.com/embed/-BIu2ghBRjg'
+      },
+
+
+
+
+      {
+        video: '',
+        img: `url(./img/vid-2.JPG)`,
+        title: `Sosialisasi UTBK-SBMPTN 2020`,
+        desc: `
+        Sosialisasi Pelaksanaan UTBK-SBMPTN 2020 dalam kondisi pandemi covid-19 [20 Mei 2020]`,
+        link: 'https://www.youtube.com/embed/h5woG-mCPu4'
+      },
+
+
+
+      {
+        video: '',
+        img: `url(./img/vid-3.JPG)`,
+        title: `Konferensi Pers Pelaksanaan UTBK 2020.`,
+        desc: `
+        Konferensi Pers Daring tentang Pelaksanaan UTBK pada Kondisi Normal Baru (New Normal)`,
+        link: 'https://www.youtube.com/embed/P1aLwSwwEUQ'
       },
       {
         video: '',
-        img: `url(./img/ocid.jpg)`,
-        title: `Lorem ipsum dolor sit, amet consectetur.`,
+        img: `url(./img/vid-4.JPG)`,
+        title: `Konferensi Pers Pelaksanaan UTBK 2020 Tahap-1.`,
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: 'https://www.youtube.com/embed/QHsBYXrHrfM'
+        Konferensi Pers Daring tentang Pelaksanaan UTBK Tahap-1`,
+        link: 'https://www.youtube.com/embed/4SwDHmhZsj0'
       },
+
       {
         video: '',
-        img: `url(./img/ocid.jpg)`,
-        title: `Lorem ipsum dolor sit, amet consectetur.`,
+        img: `url('./img/vid-5.JPG')`,
+        title: `Tips Lolos UTBK SBMPTN`,
         desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
+        Ngobrol Pendidikan : Tips Lolos UTBK PTN Bersama Wakil Ketua II LTMPT Prof.DR. Sutrisna Wibawa`,
+        link: 'https://www.youtube.com/embed/Djd4ZBza-QQ'
       },
-      {
-        video: '',
-        img: `url(./img/ocid.jpg)`,
-        title: `Lorem ipsum dolor sit, amet consectetur.`,
-        desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
-      },
-      {
-        video: '',
-        img: `url('./img/ocid.jpg')`,
-        title: `Lorem ipsum dolor sit, amet consectetur.`,
-        desc: `
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, 
-        eligendi, repellendus impedit voluptates inventore omnis cum corporis.`,
-        link: 'https://www.youtube.com/embed/rz-NuNWxHck'
-      },
+
+
     ]
   }),
   methods: {

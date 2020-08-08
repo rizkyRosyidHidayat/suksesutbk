@@ -9,7 +9,7 @@ Vue.component('testimoni-section', {
         <p>
           Wujudkan impianmu kuliah di PTN Favorit, dengan capaian nilai UTBK terbaik. 
         </p>
-        <a href="#">
+        <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank">
           <button
             @mouseover="iconColor = '#F57045'"
             @mouseleave="iconColor = '#7F7F7F'"
@@ -56,7 +56,7 @@ Vue.component('testimoni-section', {
       {
         title: 'ANNAFI FIRDAUS SAFITRI',
         desc: `
-        Edubrand sangat membantu saya masuk ke perguruan tinggi. Di Edubrand saya diarahkan agar bisa lolos di PTN Favorit dengan meningkatkan nilai di setiap semesternya. 
+        Edubrand sangat membantu saya masuk ke perguruan tinggi. Di Edubrand saya diarahkan agar bisa lolos di PTN Favorit. 
         `
       },
       {
@@ -72,39 +72,15 @@ Vue.component('testimoni-section', {
         `
       },
       {
-        title: 'SEKAR ARUM KUSUMA D',
-        desc: `
-        Edubrand dengan Brand Campus Systemnya, mengantarkan saya lolos di PTN Favorit
-        `
-      },
-      {
         title: 'SARIFATUL FATIMAH',
         desc: `
         Selama di Edubrand, saya diberikan pemahaman tentang prospek Program Studi dan PTN-PTN Favorit.
         `
       },
       {
-        title: 'NENENG NUR AMELIA',
+        title: 'BERLIANA MAHARANI',
         desc: `
         Rekomendasi pilihan PTN dan Program Studi,salah satu fitur Brand Campus System yang sangat saya sukai.
-        `
-      },
-      {
-        title: 'RIZKA FADILLA',
-        desc: `
-        Terima kasih Edubrand, yang sudah membantu saya memilih Program Studi yang saya idamkan.
-        `
-      },
-      {
-        title: 'DWI LAILATUL K',
-        desc: `
-        Ayo kita siapkan sejak sekarang, untuk UTBK 2021.
-        `
-      },
-      {
-        title: 'NOOR YULITA',
-        desc: `
-        Kisi-kisi soal yang prediktif, membuat saya yakin dengan persaingan masuk ke PTN Favorit.
         `
       },
     ]

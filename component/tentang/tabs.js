@@ -3,7 +3,7 @@ Vue.component('tabs-section', {
   <section class="mt-5 pt-5">
     <div class="container-lg text-black-50 text-center">
       <h3 class="font-weight-bold mb-4">
-        <span class="text-danger">İlkokul İngilizce</span> Eğitim Türleri
+        <span class="text-danger">Layanan</span> Edubrand
       </h3>
       <nav class="nav justify-content-center mb-4">
         <a 
@@ -30,7 +30,7 @@ Vue.component('tabs-section', {
     ],
     desc: [
       `Layanan Edubrand berbasis Full Online: TryOut AKM, TryOut UTBK, Peminatan Peserta Didik`,
-      `Layanan Edubrand berbasis Semi Online Online: TryOut AKM, TryOut UTBK, Peminatan Peserta Didik`,
+      `Layanan Edubrand berbasis Semi Online: TryOut AKM, TryOut UTBK, Peminatan Peserta Didik`,
     ],
     tabsIndex: 0
   })

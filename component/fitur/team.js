@@ -65,73 +65,81 @@ Vue.component('team-section', {
   </section>
   `,
   data: () => ({
-    tabs: ['Card Payment', 'Bank Transfer', 'Direct Debit', 'e-Wallet', 'Over the Counter'],
-    tabsActive: 'Card Payment',
+    tabs: ['Bank Transfer', 'Card Payment', 'Direct Debit', 'e-Wallet', 'Over the Counter'],
+    tabsActive: 'Bank Transfer',
     teams: {
-      "Card Payment": [
+      "Bank Transfer": [
         {
-          img: 'visa.png',
-          title: 'VISA',
-          subtitle: 'Kartu kredit/debit Visa',
-          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
-        },
-        {
-          img: 'mc.png',
-          title: 'MASTERCARD',
-          subtitle: 'Kartu kredit/debit MasterCard',
-          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo MasterCard`
-        },
-        {
-          img: 'jbx.png',
-          title: 'JBX',
-          subtitle: 'Kartu kredit/debit JBX',
-          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo JBX`
-        },
-        {
-          img: 'amex.png',
-          title: 'AMEX',
-          subtitle: 'Kartu kredit/debit AMEX',
-          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
-        },
-      ],
-      'Bank Transfer': [
-        {
-          img: 'va.png',
-          title: 'VIRTUAL ACCOUNT',
-          subtitle: 'Kartu kredit/debit Visa',
-          desc: `Pembayaran Transfer dengan Virtual Account semua Bank di Indonesia`
-        },
-        {
-          img: 'bca.png',
-          title: 'BCA',
-          subtitle: 'Kartu kredit/debit Visa',
-          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking BCA`
+          img: 'mp.png',
+          title: 'MULTI PAYMENT SYSTEM',
+          subtitle: '',
+          desc: `Sistem pembayaran online yang terhubung dengan berbagai metode pembayaran [Bank Transfer, Virtual Account, Credit Card, GoPay, T-Cash, Indomaret, Alfamart, Alfamidi, Dan+Dan, Akulaku, Direct Debit `
         },
         {
           img: 'bni.png',
           title: 'BNI',
-          subtitle: 'Kartu kredit/debit Visa',
-          desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking BNI`
+          subtitle: '',
+          desc: `Sistem pembayaran online dengan metode transfer melalui ATM, mobile, atau internet banking Bank BNI. Sistem pembayaran yang mudah dan fleksible. `
+        },
+        {
+          img: 'bca.png',
+          title: 'BCA',
+          subtitle: '',
+          desc: `Sistem pembayaran online dengan metode transfer melalui ATM, mobile, atau internet banking Bank BCA. Sistem pembayaran yang mudah dan fleksible. Transaksi aman, mudah, dan cepat. Paket TryOut otomatis langsung aktif.`
         },
         {
           img: 'mandiri.png',
           title: 'MANDIRI',
-          subtitle: 'Kartu kredit/debit Visa',
+          subtitle: '',
           desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking Mandiri`
         },
         {
           img: 'bersama.png',
           title: 'ATM BERSAMA',
-          subtitle: 'Kartu kredit/debit Visa',
+          subtitle: '',
           desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking ATM Bersama`
         },
         {
           img: 'permata.png',
           title: 'PERMATA BANK',
-          subtitle: 'Kartu kredit/debit Visa',
+          subtitle: '',
           desc: `Pembayaran Transfer baik melalui ATM, mobile, atau internet banking Permata Bank`
         },
       ], 
+      "Card Payment": [
+        {
+          img: 'visa.png',
+          title: 'VISA',
+          subtitle: '',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo VISA`
+        },
+        {
+          img: 'mc.png',
+          title: 'MASTERCARD',
+          subtitle: '',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo MasterCard`
+        },
+        {
+          img: 'jbx.png',
+          title: 'JBX',
+          subtitle: '',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo JBX`
+        },
+        {
+          img: 'amex.png',
+          title: 'AMEX',
+          subtitle: '',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari semua Bank yang berlogo AMEX`
+        },
+        {
+          img: 'va.png',
+          title: 'VIRTUAL ACCOUNT',
+          subtitle: '',
+          desc: `Pembayaran menggunakan kartu kredit/debit dari Virtual Account semua Bank.`
+        },
+
+      ],
+
       'Direct Debit': [
         {
           img: 'bcaklik.png',

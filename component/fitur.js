@@ -22,7 +22,7 @@ Vue.component('fitur-section', {
             {{ fitur[fiturIndex].desc }}
           </div>
           <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center animate-slide delay-3 mb-3">
-            <a href="https://suksesutbk.com/peserta/signup" target="_blank" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
+            <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank" class="btn btn--purple rounded-pill font-weight-bold btn-lg bg-white text--purple text-uppercase pr-2 shadow">
               <div class="d-flex align-items-center">
                 <div class="mr-3">gabung sekarang</div>
                 <span class="icon-btn-primary">
@@ -67,22 +67,19 @@ Vue.component('fitur-section', {
   data: () => ({
     fitur: [
       {
-        title: 'Full Online',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
-        saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
-        img: 'icon-fitur.PNG'
+        title: 'TryOut UTBK Terlengkap',
+        desc: `Platform TryOut UTBK Edubrand System, dilengkapi dengan fitur-fitur premium dan lengkap. Assessment Report, rekomendasi PTN/Prodi, Peringkat, Nilai Nasional, serta penilaian dengan IRT System`,
+        img: 'icon-fitur1.png'
       },
       {
-        title: 'Semi Online',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
-        saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
-        img: 'icon-fitur.PNG'
+        title: 'TryOut UTBK Terupdate',
+        desc: `Platform TryOut UTBK Edubrand System, sesuai dengan regulasi LTMPT dengan komposisi & kisi-kisi soal terupdate, serta format soal standar LTMPT.`,
+        img: 'icon-fitur2.png'
       },
       {
-        title: 'PC/Android/iOS',
-        desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita 
-        saepe omnis doloremque a molestiae, illo repellat nisi facere maiores`,
-        img: 'icon-fitur.PNG'
+        title: 'TryOut UTBK Prediktif',
+        desc: `Platform TryOut UTBK Edubrand System, sesuai dengan dengan komposisi/kisi-kisi soal yang update dan prediktif.`,
+        img: 'icon-fitur3.png'
       }
     ],
     fiturIndex: 0
