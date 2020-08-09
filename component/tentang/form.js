@@ -10,7 +10,7 @@ Vue.component('form-tentang', {
           <div class="col-12 col-md-6 order-2 order-md-1 mt-5 mt-md-0">
             <div class="card border-0 rounded--lg shadow overflow-hidden">
               <div class="card-header h5 text--primary font-weight-bold text-center border-0 bg-white">
-                HUBUNGI KAMI
+                Contact Form
               </div>
               <div class="card-body">
                 <text-field-kontak

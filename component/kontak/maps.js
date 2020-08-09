@@ -19,7 +19,7 @@ Vue.component('maps-section', {
               </span>
             </a>
             <a class="nav-link text-black-50 font-weight-bold px-0" href="kontak.html">
-              Kontak
+              Contact
             </a>
           </nav>
         </div>

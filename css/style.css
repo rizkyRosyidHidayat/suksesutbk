@@ -33,3 +33,23 @@ body{ background-color: #F3F7FC;font-family: 'Nunito', sans-serif; }
   background-size: 100%;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 500px){
+  .bg-event{
+    background-image: none;
+  }
+}
+.btn-wa{
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  /* padding: 16px; */  
+}
+.btn-wa .btn{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}

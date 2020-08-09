@@ -16,7 +16,7 @@ Vue.component('desc-section', {
                 </span>
               </a>
               <a class="nav-link text-black-50 font-weight-bold px-0" href="tentang.html">
-                Tentang Kami
+                About us
               </a>
             </nav>
           </div>

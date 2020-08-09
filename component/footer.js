@@ -14,7 +14,7 @@ Vue.component('footer-section', {
           </div>
           <div class="card border-0 rounded-lg ml-3 shadow d-none d-sm-block">
             <div class="card-body d-flex align-items-center p-2">
-              <img src="./img/qrcode.jpeg" alt="footer" width="84">
+              <img src="./img/qrcode.png" alt="footer" width="84">
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ Vue.component('form-fitur', {
                   id="email"
                 ></text-field-kontak>
                 <text-field-kontak
-                  label="Nomor Handphone"
+                  label="Nomor HP/WhatsApp"
                   id="nomor"
                   class="mt-1 mt-sm-0"
                 ></text-field-kontak>

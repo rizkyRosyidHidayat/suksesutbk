@@ -46,7 +46,7 @@ Vue.component('hidden-menu', {
       </div>
       <div class="dropdown-divider"></div>
       <a href="#" class="btn mb-5 bg-white rounded-pill btn-lg text--primary btn-block font-weight-bold mt-5 py-3">
-        MARKETE GIT
+        DAFTAR SEKARANG
       </a>
     </div>
   </section>
@@ -54,11 +54,10 @@ Vue.component('hidden-menu', {
   props: ['navbar', 'visible-menu'],
   data: () => ({
     list: [
-      { text: 'S.S.S', link: '' },
-      { text: 'Gallery', link: '' },
-      { text: 'Blog', link: '' },
-      { text: 'Haberler', link: '' },
-      { text: 'Etkinloer', link: '' },
+      { text: 'Instagram', link: '' },
+      { text: 'Facebook', link: '' },
+      { text: 'Youtube', link: '' },
+      { text: 'Website', link: 'http://edubrand.id' },
     ]
   })
 })
