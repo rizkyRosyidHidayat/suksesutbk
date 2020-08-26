@@ -65,10 +65,6 @@ Vue.component('video-testimoni', {
         UTBK 2020 di tengah wabah pandemi Covid19, dilaksanakan dengan protokol khusus`,
         link: 'https://www.youtube.com/embed/-BIu2ghBRjg'
       },
-
-
-
-
       {
         video: '',
         img: `url(./img/vid-2.JPG)`,
@@ -77,9 +73,6 @@ Vue.component('video-testimoni', {
         Sosialisasi Pelaksanaan UTBK-SBMPTN 2020 dalam kondisi pandemi covid-19 [20 Mei 2020]`,
         link: 'https://www.youtube.com/embed/h5woG-mCPu4'
       },
-
-
-
       {
         video: '',
         img: `url(./img/vid-3.JPG)`,
@@ -96,7 +89,6 @@ Vue.component('video-testimoni', {
         Konferensi Pers Daring tentang Pelaksanaan UTBK Tahap-1`,
         link: 'https://www.youtube.com/embed/4SwDHmhZsj0'
       },
-
       {
         video: '',
         img: `url('./img/vid-5.JPG')`,
@@ -105,8 +97,6 @@ Vue.component('video-testimoni', {
         Ngobrol Pendidikan : Tips Lolos UTBK PTN Bersama Wakil Ketua II LTMPT Prof.DR. Sutrisna Wibawa`,
         link: 'https://www.youtube.com/embed/Djd4ZBza-QQ'
       },
-
-
     ]
   }),
   methods: {

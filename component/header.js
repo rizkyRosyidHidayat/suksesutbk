@@ -23,7 +23,7 @@ Vue.component('header-section', {
             :data="item"
           />
           <div>
-            <a href="" target="_blank" class="nav-item nav-link">
+            <a href="/peserta" target="_blank" class="nav-item nav-link">
               <button 
                 @mouseover="iconColor = '#F57045'"
                 @mouseleave="iconColor = '#ffffff'"

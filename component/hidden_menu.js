@@ -45,7 +45,7 @@ Vue.component('hidden-menu', {
         </div>
       </div>
       <div class="dropdown-divider"></div>
-      <a href="#" class="btn mb-5 bg-white rounded-pill btn-lg text--primary btn-block font-weight-bold mt-5 py-3">
+      <a href="/peserta" class="btn mb-5 bg-white rounded-pill btn-lg text--primary btn-block font-weight-bold mt-5 py-3">
         DAFTAR SEKARANG
       </a>
     </div>

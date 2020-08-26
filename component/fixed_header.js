@@ -24,7 +24,7 @@ Vue.component('fixed-header', {
             {{ data.text }}
           </a>
           <div>
-            <a href="#" class="nav-item nav-link">
+            <a href="/peserta" class="nav-item nav-link">
               <button 
                 @mouseover="iconColor = '#ffffff'"
                 @mouseleave="iconColor = '#F57045'"
