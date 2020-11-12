@@ -47,7 +47,7 @@ Vue.component('paket-paket', {
     paket: [
       {
         title: 'SUKSES-1',
-        price: '50.000',
+        price: '75.000',
         list: [
           '2X TryOut',
           'Penilaian sistem IRT',
@@ -65,7 +65,7 @@ Vue.component('paket-paket', {
       },
       {
         title: 'SUKSES-2',
-        price: '95.000',
+        price: '140.000',
         list: [
           '3X TryOut',
           'Penilaian sistem IRT',
@@ -83,7 +83,7 @@ Vue.component('paket-paket', {
       },
       {
         title: 'SUKSES-3',
-        price: '140.000',
+        price: '200.000',
         list: [
           '4X TryOut',
           'Penilaian sistem IRT',
