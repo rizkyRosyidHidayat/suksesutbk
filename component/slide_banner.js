@@ -41,16 +41,16 @@ Vue.component('slide-banner', {
     slides: [
       { title: '#WujudkanImpianmu', desc: `
         Nilai UTBK Terbaik, Kuliah Di PTN Dan Prodi Favorit
-      `, link: '', img: 'image.webp' },
+      `, link: 'https://suksesutbk.com/peserta/auth/signup', img: 'image.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '', img: 'image1.webp' },
+      `, link: 'https://suksesutbk.com/peserta/auth/signup', img: 'image1.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '', img: 'image2.webp' },
+      `, link: 'https://suksesutbk.com/peserta/auth/signup', img: 'image2.webp' },
       { title: '#WujudkanImpianmu', desc: `
         bergabung bersama kami sekarang juga
-      `, link: '', img: 'image3.webp' }
+      `, link: 'https://suksesutbk.com/peserta/auth/signup', img: 'image3.webp' }
     ],
     slidesIndex: 0
   }),
